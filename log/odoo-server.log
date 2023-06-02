@@ -7733,3 +7733,636 @@ psycopg2.OperationalError: connection to server at "db" (172.22.0.2), port 5432 
 2023-06-02 15:58:05,435 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 15:58:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.014
 2023-06-02 15:58:44,760 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 15:58:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.014
 2023-06-02 15:58:55,481 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 15:58:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.020
+2023-06-02 15:59:35,758 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 15:59:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.015
+2023-06-02 15:59:45,506 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 15:59:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.011
+2023-06-02 16:00:26,755 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:00:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.011
+2023-06-02 16:00:35,532 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:00:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.012
+2023-06-02 16:01:17,766 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:01:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.013
+2023-06-02 16:01:25,576 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:01:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.021
+2023-06-02 16:02:08,752 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:02:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.010
+2023-06-02 16:02:15,671 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:02:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.012 50.039
+2023-06-02 16:02:59,770 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:02:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.013
+2023-06-02 16:03:05,717 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:03:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.020
+2023-06-02 16:03:50,764 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:03:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.016
+2023-06-02 16:03:55,752 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:03:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.015
+2023-06-02 16:04:26,197 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:26] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.011 0.008
+2023-06-02 16:04:35,153 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-06-02 16:04:35,155 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-06-02 16:04:35,188 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2023-06-02 16:04:35,208 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 39.437
+2023-06-02 16:04:40,788 1 INFO ? odoo: Odoo version 15.0-20230109 
+2023-06-02 16:04:40,790 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-06-02 16:04:40,791 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-06-02 16:04:40,792 1 INFO ? odoo: database: odoo@db:5432 
+2023-06-02 16:04:40,941 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-06-02 16:04:41,221 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1e86d4068914:8069 
+2023-06-02 16:04:43,142 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-06-02 16:04:43,174 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-02 16:04:43,188 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-02 16:04:43,211 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:04:43,227 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-02 16:04:43,389 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:04:43,390 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:04:43,394 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:04:43,410 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:04:43,538 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:04:43,888 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.66s, 0 queries (+0 extra) 
+2023-06-02 16:04:44,136 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-02 16:04:44,145 1 INFO surtidores odoo.modules.registry: Registry loaded in 0.997s 
+2023-06-02 16:04:44,154 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-02 16:04:44,155 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-02 16:04:44,496 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:44] "POST /web/webclient/version_info HTTP/1.1" 200 - 2 0.005 1.331
+2023-06-02 16:04:44,648 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:44] "POST /web/action/load HTTP/1.1" 200 - 34 0.052 1.450
+2023-06-02 16:04:44,686 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:44] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.011 0.011
+2023-06-02 16:04:44,706 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:44] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.004 0.005
+2023-06-02 16:04:46,044 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:46] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.010 0.013
+2023-06-02 16:04:46,069 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:46] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.003 0.007
+2023-06-02 16:04:46,090 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:04:46,311 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:04:47,259 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:47] "POST /web/dataset/call_button HTTP/1.1" 200 - 1059 0.562 0.615
+2023-06-02 16:04:48,296 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-06-02 16:04:50,386 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:04:50,388 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:04:50,390 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:04:50,556 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:04:51,337 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:04:51,349 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:04:51,368 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:04:51,372 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:04:51,395 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-02 16:04:51,413 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-06-02 16:04:51,444 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-02 16:04:51,447 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-02 16:04:51,629 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:04:52,524 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:04:52,539 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-02 16:04:52,540 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-02 16:04:52,637 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:04:52,660 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-02 16:04:52,769 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-02 16:04:52,780 1 INFO surtidores odoo.modules.loading: loading surtidores/views/templates.xml 
+2023-06-02 16:04:52,804 1 INFO surtidores odoo.addons.base.models.ir_translation: module surtidores: no translation for language es 
+2023-06-02 16:04:52,813 1 WARNING surtidores odoo.modules.loading: The models ['cliente'] have no access rules in module surtidores, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+surtidores.access_cliente,access_cliente,surtidores.model_cliente,base.group_user,1,0,0,0 
+2023-06-02 16:04:52,821 1 INFO surtidores odoo.modules.loading: Module surtidores loaded in 0.28s, 46 queries 
+2023-06-02 16:04:52,826 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:04:52,829 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:04:52,836 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:04:52,869 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.33s, 46 queries (+0 extra) 
+2023-06-02 16:04:53,244 1 INFO surtidores odoo.modules.registry: verifying fields for every extended model 
+2023-06-02 16:04:53,733 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-02 16:04:53,740 1 INFO surtidores odoo.modules.registry: Registry loaded in 2.350s 
+2023-06-02 16:04:53,741 1 INFO surtidores odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-06-02 16:04:53,747 1 INFO surtidores odoo.modules.registry: Registry changed, signaling through the database 
+2023-06-02 16:04:53,750 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:53] "POST /web/dataset/call_button HTTP/1.1" 200 - 2846 1.579 1.798
+2023-06-02 16:04:53,793 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-02 16:04:54,561 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:54] "GET /web HTTP/1.1" 200 - 331 0.205 0.566
+2023-06-02 16:04:54,633 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:54] "GET /web/webclient/load_menus/d21f6ccaeee752c34b0a96e90394ed12051a52fdd3cd43b2ceae0a08fdbcdc3e HTTP/1.1" 200 - 1 0.001 0.010
+2023-06-02 16:04:55,094 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:55] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.004 0.025
+2023-06-02 16:04:55,134 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:55] "POST /web/action/load HTTP/1.1" 200 - 8 0.021 0.032
+2023-06-02 16:04:55,163 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:55] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 20 0.057 0.037
+2023-06-02 16:04:55,336 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:55] "POST /mail/init_messaging HTTP/1.1" 200 - 56 0.060 0.050
+2023-06-02 16:04:55,385 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:55] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.007 0.014
+2023-06-02 16:04:55,399 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:55] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.011 0.016
+2023-06-02 16:04:55,405 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:55] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.013 0.014
+2023-06-02 16:04:55,456 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:55] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.009 0.025
+2023-06-02 16:04:56,235 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:56] "GET /web_tour/static/src/xml/tip.xml?debug=1685721896219 HTTP/1.1" 200 - - - -
+2023-06-02 16:04:59,037 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "POST /web/action/load HTTP/1.1" 200 - 52 0.056 0.051
+2023-06-02 16:04:59,198 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 59 0.046 0.105
+2023-06-02 16:04:59,469 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 206 0.131 0.097
+2023-06-02 16:04:59,641 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "POST /base_setup/data HTTP/1.1" 200 - 6 0.008 0.008
+2023-06-02 16:04:59,646 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.006 0.008
+2023-06-02 16:04:59,752 1 INFO surtidores odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'es_ES', 'tz': 'Europe/Madrid', 'uid': 2}}> 
+2023-06-02 16:04:59,791 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "POST /web_editor/public_render_template HTTP/1.1" 200 - 27 0.026 0.040
+2023-06-02 16:04:59,826 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "GET /web/assets/89-31b0c75/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 2 0.002 0.017
+2023-06-02 16:04:59,827 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "GET /web/assets/88-31b0c75/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 2 0.005 0.017
+2023-06-02 16:04:59,899 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.006
+2023-06-02 16:04:59,909 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:04:59] "GET /web_editor/static/src/xml/editor.xml?debug=1685721899903 HTTP/1.1" 200 - - - -
+2023-06-02 16:05:04,494 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:05:04] "POST /web/action/load HTTP/1.1" 200 - 22 0.030 0.029
+2023-06-02 16:05:04,629 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:05:04] "POST /web/dataset/call_kw/ir.model/load_views HTTP/1.1" 200 - 64 0.057 0.064
+2023-06-02 16:05:04,660 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:05:04] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.007 0.007
+2023-06-02 16:05:04,681 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:05:04] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.006
+2023-06-02 16:05:14,386 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:05:14] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.007 0.009
+2023-06-02 16:05:16,323 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:05:16] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.009 0.013
+2023-06-02 16:05:38,302 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:05:38] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.017 50.023
+2023-06-02 16:05:45,144 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:05:45] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.029 50.042
+2023-06-02 16:05:45,458 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:05:45] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.011
+2023-06-02 16:06:35,190 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:06:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.012 50.019
+2023-06-02 16:06:35,501 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:06:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.010
+2023-06-02 16:07:25,235 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:07:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.020
+2023-06-02 16:07:25,525 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:07:25] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.009
+2023-06-02 16:07:41,384 1 INFO surtidores odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-06-02 16:07:41,399 1 INFO surtidores odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-06-02 16:08:15,276 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:08:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.015
+2023-06-02 16:08:15,759 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:08:15] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.015
+2023-06-02 16:09:05,310 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:09:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.016
+2023-06-02 16:09:06,758 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:09:06] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.010
+2023-06-02 16:09:55,345 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:09:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.015
+2023-06-02 16:09:57,756 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:09:57] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.014
+2023-06-02 16:10:24,351 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:24] "GET /web HTTP/1.1" 200 - 17 0.015 0.101
+2023-06-02 16:10:24,416 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:24] "GET /web/assets/83-6c39668/web.assets_common.min.css HTTP/1.1" 200 - 2 0.002 0.028
+2023-06-02 16:10:24,509 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:24] "GET /web/assets/86-412ece4/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.007 0.096
+2023-06-02 16:10:24,512 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:24] "GET /web/assets/84-412ece4/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.014 0.088
+2023-06-02 16:10:24,513 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:24] "GET /web/assets/87-f18f3d4/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.010 0.089
+2023-06-02 16:10:24,518 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:24] "GET /web/assets/85-6c39668/web.assets_common.min.js HTTP/1.1" 200 - 2 0.024 0.073
+2023-06-02 16:10:24,532 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:24] "GET /web/webclient/load_menus/d21f6ccaeee752c34b0a96e90394ed12051a52fdd3cd43b2ceae0a08fdbcdc3e HTTP/1.1" 200 - 1 0.003 0.048
+2023-06-02 16:10:24,854 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:24] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.046 0.253
+2023-06-02 16:10:24,896 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:24] "GET /web/webclient/qweb/0611084b1a4b5b7d0c3d699e9809657bec93f106d87e04334dfb247171bf7b5b?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.005 0.395
+2023-06-02 16:10:25,054 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.024 0.060
+2023-06-02 16:10:25,094 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - - - -
+2023-06-02 16:10:25,170 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.022 0.068
+2023-06-02 16:10:25,174 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "POST /web/action/load HTTP/1.1" 200 - 15 0.060 0.029
+2023-06-02 16:10:25,334 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.004 0.023
+2023-06-02 16:10:25,351 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "POST /mail/init_messaging HTTP/1.1" 200 - 34 0.056 0.063
+2023-06-02 16:10:25,360 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - - - -
+2023-06-02 16:10:25,386 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 5 0.021 0.051
+2023-06-02 16:10:25,423 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 4 0.013 0.036
+2023-06-02 16:10:25,442 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.011 0.025
+2023-06-02 16:10:25,443 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.007 0.023
+2023-06-02 16:10:25,476 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "POST /web/dataset/call_kw/ir.model/load_views HTTP/1.1" 200 - 17 0.047 0.093
+2023-06-02 16:10:25,510 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.005 0.007
+2023-06-02 16:10:25,529 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:25] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.004
+2023-06-02 16:10:45,375 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.012
+2023-06-02 16:10:52,508 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:52] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.010 0.008
+2023-06-02 16:10:58,621 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:10:58] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.009 0.013
+2023-06-02 16:11:03,382 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:03] "POST /web/action/load HTTP/1.1" 200 - 28 0.031 0.040
+2023-06-02 16:11:03,492 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:03] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 49 0.042 0.052
+2023-06-02 16:11:03,572 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.037 0.025
+2023-06-02 16:11:03,594 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.007
+2023-06-02 16:11:05,973 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:05] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.010 0.021
+2023-06-02 16:11:06,014 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.044 0.037
+2023-06-02 16:11:13,305 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:13] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.057 0.029
+2023-06-02 16:11:13,333 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:13] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.007 0.008
+2023-06-02 16:11:15,418 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.036 50.063
+2023-06-02 16:11:15,473 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:15] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2023-06-02 16:11:16,381 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:11:16,384 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:11:16,386 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:11:16,617 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:11:17,482 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:11:17,494 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:11:17,513 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:11:17,518 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:11:17,541 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-02 16:11:17,549 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-02 16:11:17,572 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-02 16:11:17,574 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-02 16:11:17,735 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:11:18,528 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:11:18,540 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-02 16:11:18,541 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-02 16:11:18,570 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:11:18,591 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-02 16:11:18,634 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-02 16:11:18,645 1 INFO surtidores odoo.modules.loading: loading surtidores/views/templates.xml 
+2023-06-02 16:11:18,669 1 INFO surtidores odoo.addons.base.models.ir_translation: module surtidores: no translation for language es 
+2023-06-02 16:11:18,679 1 WARNING surtidores odoo.modules.loading: The models ['cliente'] have no access rules in module surtidores, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+surtidores.access_cliente,access_cliente,surtidores.model_cliente,base.group_user,1,0,0,0 
+2023-06-02 16:11:18,687 1 INFO surtidores odoo.modules.loading: Module surtidores loaded in 0.15s, 32 queries 
+2023-06-02 16:11:18,690 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:11:18,693 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:11:18,700 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:11:18,730 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.19s, 32 queries (+0 extra) 
+2023-06-02 16:11:19,112 1 INFO surtidores odoo.modules.registry: verifying fields for every extended model 
+2023-06-02 16:11:19,443 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-02 16:11:19,450 1 INFO surtidores odoo.modules.registry: Registry loaded in 1.916s 
+2023-06-02 16:11:19,452 1 INFO surtidores odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-06-02 16:11:19,457 1 INFO surtidores odoo.modules.registry: Registry changed, signaling through the database 
+2023-06-02 16:11:19,460 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:19] "POST /web/dataset/call_button HTTP/1.1" 200 - 2837 1.465 1.631
+2023-06-02 16:11:19,493 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-02 16:11:20,364 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web HTTP/1.1" 200 - 331 0.221 0.653
+2023-06-02 16:11:20,409 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web/assets/83-6c39668/web.assets_common.min.css HTTP/1.1" 200 - 2 0.002 0.015
+2023-06-02 16:11:20,504 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web/assets/84-412ece4/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.005 0.075
+2023-06-02 16:11:20,505 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web/assets/86-412ece4/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.015 0.059
+2023-06-02 16:11:20,506 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web/assets/85-6c39668/web.assets_common.min.js HTTP/1.1" 304 - 2 0.010 0.069
+2023-06-02 16:11:20,524 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web/webclient/load_menus/d21f6ccaeee752c34b0a96e90394ed12051a52fdd3cd43b2ceae0a08fdbcdc3e HTTP/1.1" 200 - 1 0.001 0.059
+2023-06-02 16:11:20,530 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web/assets/87-f18f3d4/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.015 0.075
+2023-06-02 16:11:20,637 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 7 0.032 0.064
+2023-06-02 16:11:20,692 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web/webclient/qweb/0611084b1a4b5b7d0c3d699e9809657bec93f106d87e04334dfb247171bf7b5b?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.011 0.203
+2023-06-02 16:11:20,994 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:20] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.020 0.046
+2023-06-02 16:11:21,145 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.016 0.119
+2023-06-02 16:11:21,302 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-06-02 16:11:21,322 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.012 0.037
+2023-06-02 16:11:21,344 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 5 0.013 0.051
+2023-06-02 16:11:21,358 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "POST /web/action/load HTTP/1.1" 200 - 8 0.035 0.038
+2023-06-02 16:11:21,463 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "POST /mail/init_messaging HTTP/1.1" 200 - 69 0.192 0.068
+2023-06-02 16:11:21,535 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.009 0.015
+2023-06-02 16:11:21,539 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.006 0.019
+2023-06-02 16:11:21,553 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.011 0.018
+2023-06-02 16:11:21,602 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:21] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.009 0.023
+2023-06-02 16:11:22,376 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:22] "GET /web_tour/static/src/xml/tip.xml?debug=1685722282365 HTTP/1.1" 200 - - - -
+2023-06-02 16:11:26,303 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:26] "POST /web/action/load HTTP/1.1" 200 - 52 0.047 0.046
+2023-06-02 16:11:26,508 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:26] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 59 0.049 0.144
+2023-06-02 16:11:26,816 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:26] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 206 0.158 0.100
+2023-06-02 16:11:26,992 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:26] "POST /base_setup/data HTTP/1.1" 200 - 6 0.006 0.008
+2023-06-02 16:11:26,998 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:26] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.004 0.007
+2023-06-02 16:11:27,102 1 INFO surtidores odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'es_ES', 'tz': 'Europe/Madrid', 'uid': 2}}> 
+2023-06-02 16:11:27,136 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:27] "POST /web_editor/public_render_template HTTP/1.1" 200 - 25 0.017 0.038
+2023-06-02 16:11:27,160 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:27] "GET /web/assets/88-31b0c75/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 2 0.001 0.012
+2023-06-02 16:11:27,165 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:27] "GET /web/assets/89-31b0c75/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 2 0.004 0.012
+2023-06-02 16:11:27,236 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:27] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.005
+2023-06-02 16:11:27,247 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:27] "GET /web_editor/static/src/xml/editor.xml?debug=1685722287240 HTTP/1.1" 200 - - - -
+2023-06-02 16:11:35,723 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:35] "POST /web/action/load HTTP/1.1" 200 - 22 0.023 0.036
+2023-06-02 16:11:35,851 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:35] "POST /web/dataset/call_kw/ir.model/load_views HTTP/1.1" 200 - 64 0.053 0.061
+2023-06-02 16:11:35,883 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.007 0.007
+2023-06-02 16:11:35,904 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:35] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.004
+2023-06-02 16:11:50,515 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 178, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 201, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 187, in loop
+    event.set()
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 162, in __exit__
+    self.close()
+  File "<decorator-gen-4>", line 2, in close
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 379, in close
+    return self._close(False)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 405, in _close
+    self.rollback()
+  File "<decorator-gen-8>", line 2, in rollback
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 484, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2023-06-02 16:11:50,526 1 INFO surtidores odoo.sql_db: Connection to the database failed 
+2023-06-02 16:11:50,528 1 WARNING surtidores odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 658, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.22.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2023-06-02 16:11:50,533 1 INFO surtidores odoo.sql_db: Connection to the database failed 
+2023-06-02 16:11:50,535 1 WARNING surtidores odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 658, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.22.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2023-06-02 16:11:51,663 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-06-02 16:11:51,664 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-06-02 16:11:51,920 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-06-02 16:11:51,940 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:51] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.061 30.597
+2023-06-02 16:11:51,943 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:11:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 36.509
+2023-06-02 16:11:54,207 1 INFO ? odoo: Odoo version 15.0-20230109 
+2023-06-02 16:11:54,209 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-06-02 16:11:54,210 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-06-02 16:11:54,212 1 INFO ? odoo: database: odoo@db:5432 
+2023-06-02 16:11:54,353 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-06-02 16:11:54,573 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1e86d4068914:8069 
+2023-06-02 16:12:01,728 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-06-02 16:12:01,749 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-02 16:12:01,759 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-02 16:12:01,787 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:12:01,797 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-02 16:12:01,906 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:12:01,908 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:12:01,916 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:12:01,939 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:12:02,042 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:12:02,409 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.61s, 0 queries (+0 extra) 
+2023-06-02 16:12:02,657 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-02 16:12:02,666 1 INFO surtidores odoo.modules.registry: Registry loaded in 0.933s 
+2023-06-02 16:12:02,669 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-02 16:12:03,072 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:03] "POST /web/action/load HTTP/1.1" 200 - 46 0.053 1.287
+2023-06-02 16:12:03,197 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:03] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 61 0.045 0.057
+2023-06-02 16:12:03,258 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:03] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.022 0.020
+2023-06-02 16:12:03,288 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:03] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.008
+2023-06-02 16:12:05,733 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:05] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.014 0.021
+2023-06-02 16:12:05,772 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:05] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.040 0.036
+2023-06-02 16:12:09,654 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.052 0.033
+2023-06-02 16:12:09,686 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.006 0.007
+2023-06-02 16:12:11,634 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:11] "POST /longpolling/im_status HTTP/1.1" 200 - 16 0.024 0.021
+2023-06-02 16:12:13,905 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:12:13,907 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:12:13,909 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:12:14,018 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-06-02 16:12:14,539 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:12:14,920 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:12:14,934 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:12:14,956 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:12:14,960 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:12:14,994 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-02 16:12:15,006 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-02 16:12:15,030 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-02 16:12:15,033 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-02 16:12:15,669 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:12:16,045 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:12:16,060 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-02 16:12:16,061 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-02 16:12:16,081 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:12:16,102 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-02 16:12:16,175 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-02 16:12:16,188 1 INFO surtidores odoo.modules.loading: loading surtidores/views/templates.xml 
+2023-06-02 16:12:16,217 1 INFO surtidores odoo.addons.base.models.ir_translation: module surtidores: no translation for language es 
+2023-06-02 16:12:16,226 1 WARNING surtidores odoo.modules.loading: The models ['cliente'] have no access rules in module surtidores, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+surtidores.access_cliente,access_cliente,surtidores.model_cliente,base.group_user,1,0,0,0 
+2023-06-02 16:12:16,236 1 INFO surtidores odoo.modules.loading: Module surtidores loaded in 0.17s, 32 queries 
+2023-06-02 16:12:16,240 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:12:16,245 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:12:16,258 1 WARNING surtidores odoo.models: The model cliente has no _description 
+2023-06-02 16:12:16,292 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.23s, 32 queries (+0 extra) 
+2023-06-02 16:12:16,768 1 INFO surtidores odoo.modules.registry: verifying fields for every extended model 
+2023-06-02 16:12:17,277 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-02 16:12:17,285 1 INFO surtidores odoo.modules.registry: Registry loaded in 2.299s 
+2023-06-02 16:12:17,286 1 INFO surtidores odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-06-02 16:12:17,291 1 INFO surtidores odoo.modules.registry: Registry changed, signaling through the database 
+2023-06-02 16:12:17,295 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:17] "POST /web/dataset/call_button HTTP/1.1" 200 - 2835 1.682 1.722
+2023-06-02 16:12:17,340 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-02 16:12:18,121 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web HTTP/1.1" 200 - 331 0.226 0.557
+2023-06-02 16:12:18,200 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/assets/83-6c39668/web.assets_common.min.css HTTP/1.1" 200 - 2 0.007 0.042
+2023-06-02 16:12:18,232 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/assets/85-6c39668/web.assets_common.min.js HTTP/1.1" 304 - 2 0.003 0.071
+2023-06-02 16:12:18,252 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/assets/84-412ece4/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.010 0.088
+2023-06-02 16:12:18,256 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/webclient/load_menus/d21f6ccaeee752c34b0a96e90394ed12051a52fdd3cd43b2ceae0a08fdbcdc3e HTTP/1.1" 200 - 1 0.003 0.062
+2023-06-02 16:12:18,257 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/assets/87-f18f3d4/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.020 0.067
+2023-06-02 16:12:18,257 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/assets/86-412ece4/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.006 0.083
+2023-06-02 16:12:18,373 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 7 0.032 0.087
+2023-06-02 16:12:18,439 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/webclient/qweb/0611084b1a4b5b7d0c3d699e9809657bec93f106d87e04334dfb247171bf7b5b?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.005 0.201
+2023-06-02 16:12:18,613 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.027 0.039
+2023-06-02 16:12:18,689 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.015 0.040
+2023-06-02 16:12:18,846 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.011 0.027
+2023-06-02 16:12:18,847 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-06-02 16:12:18,874 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 5 0.014 0.048
+2023-06-02 16:12:18,933 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:18] "POST /web/action/load HTTP/1.1" 200 - 8 0.042 0.063
+2023-06-02 16:12:19,030 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:19] "POST /mail/init_messaging HTTP/1.1" 200 - 69 0.227 0.060
+2023-06-02 16:12:19,075 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:19] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.005 0.009
+2023-06-02 16:12:19,087 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:19] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.009 0.018
+2023-06-02 16:12:19,097 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:19] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.011 0.016
+2023-06-02 16:12:19,140 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:19] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.010 0.021
+2023-06-02 16:12:19,892 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:19] "GET /web_tour/static/src/xml/tip.xml?debug=1685722339882 HTTP/1.1" 200 - - - -
+2023-06-02 16:12:20,976 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:20] "POST /web/action/load HTTP/1.1" 200 - 52 0.054 0.047
+2023-06-02 16:12:21,166 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:21] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 59 0.051 0.117
+2023-06-02 16:12:21,447 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:21] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 206 0.127 0.100
+2023-06-02 16:12:21,621 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:21] "POST /base_setup/data HTTP/1.1" 200 - 6 0.006 0.007
+2023-06-02 16:12:21,625 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:21] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.005 0.008
+2023-06-02 16:12:21,720 1 INFO surtidores odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'es_ES', 'tz': 'Europe/Madrid', 'uid': 2}}> 
+2023-06-02 16:12:21,756 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:21] "POST /web_editor/public_render_template HTTP/1.1" 200 - 25 0.017 0.037
+2023-06-02 16:12:21,790 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:21] "GET /web/assets/89-31b0c75/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 2 0.003 0.014
+2023-06-02 16:12:21,793 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:21] "GET /web/assets/88-31b0c75/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 2 0.004 0.016
+2023-06-02 16:12:21,866 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:21] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.005
+2023-06-02 16:12:21,881 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:21] "GET /web_editor/static/src/xml/editor.xml?debug=1685722341871 HTTP/1.1" 200 - - - -
+2023-06-02 16:12:32,114 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:32] "POST /web/action/load HTTP/1.1" 200 - 22 0.022 0.024
+2023-06-02 16:12:32,233 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:32] "POST /web/dataset/call_kw/ir.model/load_views HTTP/1.1" 200 - 64 0.048 0.057
+2023-06-02 16:12:32,265 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:32] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.006 0.007
+2023-06-02 16:12:32,288 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:32] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.005
+2023-06-02 16:12:37,966 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:37] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.007 0.009
+2023-06-02 16:12:38,953 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:38] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.009 0.011
+2023-06-02 16:12:42,213 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.007 0.011
+2023-06-02 16:12:44,152 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:44] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.008 0.013
+2023-06-02 16:12:45,930 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:45] "POST /web/dataset/call_kw/ir.ui.view/load_views HTTP/1.1" 200 - 18 0.019 0.027
+2023-06-02 16:12:46,003 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:46] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 22 0.031 0.018
+2023-06-02 16:12:46,038 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:46] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.004 0.011
+2023-06-02 16:12:46,046 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:46] "POST /web/dataset/call_kw/ir.model.access/read HTTP/1.1" 200 - 4 0.009 0.014
+2023-06-02 16:12:46,046 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:46] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 5 0.009 0.012
+2023-06-02 16:12:46,179 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:46] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-02 16:12:47,599 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:12:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.007 0.014
+2023-06-02 16:13:04,024 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:13:04] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.018 50.021
+2023-06-02 16:13:09,035 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:13:09] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.042 50.174
+2023-06-02 16:13:09,763 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:13:09] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.013
+2023-06-02 16:13:59,084 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:13:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.014
+2023-06-02 16:14:00,750 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:14:00] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2023-06-02 16:14:49,120 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:14:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.016
+2023-06-02 16:14:51,749 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:14:51] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2023-06-02 16:15:08,311 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 178, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 201, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 187, in loop
+    event.set()
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 162, in __exit__
+    self.close()
+  File "<decorator-gen-4>", line 2, in close
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 379, in close
+    return self._close(False)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 405, in _close
+    self.rollback()
+  File "<decorator-gen-8>", line 2, in rollback
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 484, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2023-06-02 16:15:08,318 1 INFO surtidores odoo.sql_db: Connection to the database failed 
+2023-06-02 16:15:08,319 1 WARNING surtidores odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 658, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.22.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2023-06-02 16:15:08,322 1 INFO surtidores odoo.sql_db: Connection to the database failed 
+2023-06-02 16:15:08,324 1 WARNING surtidores odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 658, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.22.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2023-06-02 16:15:09,264 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-06-02 16:15:09,266 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-06-02 16:15:09,755 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-06-02 16:15:09,787 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.014 20.621
+2023-06-02 16:15:12,104 1 INFO ? odoo: Odoo version 15.0-20230109 
+2023-06-02 16:15:12,105 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-06-02 16:15:12,106 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-06-02 16:15:12,107 1 INFO ? odoo: database: odoo@db:5432 
+2023-06-02 16:15:12,323 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-06-02 16:15:12,536 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1e86d4068914:8069 
+2023-06-02 16:15:22,052 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-06-02 16:15:22,072 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-02 16:15:22,084 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-02 16:15:22,111 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:15:22,120 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-02 16:15:22,249 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:15:22,727 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.61s, 0 queries (+0 extra) 
+2023-06-02 16:15:22,954 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-02 16:15:22,961 1 INFO surtidores odoo.modules.registry: Registry loaded in 0.906s 
+2023-06-02 16:15:22,964 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-02 16:15:23,817 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:23] "GET /web HTTP/1.1" 200 - 346 0.243 1.519
+2023-06-02 16:15:24,004 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/webclient/load_menus/d21f6ccaeee752c34b0a96e90394ed12051a52fdd3cd43b2ceae0a08fdbcdc3e HTTP/1.1" 200 - 1 0.004 0.048
+2023-06-02 16:15:24,004 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/assets/83-6c39668/web.assets_common.min.css HTTP/1.1" 200 - 2 0.010 0.059
+2023-06-02 16:15:24,029 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/assets/87-f18f3d4/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.010 0.070
+2023-06-02 16:15:24,051 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/assets/84-412ece4/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.026 0.085
+2023-06-02 16:15:24,053 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/assets/85-6c39668/web.assets_common.min.js HTTP/1.1" 200 - 2 0.010 0.099
+2023-06-02 16:15:24,054 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/assets/86-412ece4/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.014 0.094
+2023-06-02 16:15:24,217 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 7 0.055 0.096
+2023-06-02 16:15:24,286 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/webclient/qweb/0611084b1a4b5b7d0c3d699e9809657bec93f106d87e04334dfb247171bf7b5b?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.011 0.236
+2023-06-02 16:15:24,547 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.027 0.054
+2023-06-02 16:15:24,662 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.026 0.063
+2023-06-02 16:15:24,829 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.003 0.018
+2023-06-02 16:15:24,857 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-06-02 16:15:24,892 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.041 0.028
+2023-06-02 16:15:24,905 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "POST /web/action/load HTTP/1.1" 200 - 52 0.156 0.153
+2023-06-02 16:15:24,951 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "POST /mail/init_messaging HTTP/1.1" 200 - 65 0.130 0.068
+2023-06-02 16:15:24,999 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:24] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.007 0.012
+2023-06-02 16:15:25,003 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.007 0.014
+2023-06-02 16:15:25,115 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 59 0.040 0.152
+2023-06-02 16:15:25,390 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 207 0.135 0.093
+2023-06-02 16:15:25,540 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "POST /base_setup/data HTTP/1.1" 200 - 6 0.006 0.006
+2023-06-02 16:15:25,546 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.005 0.006
+2023-06-02 16:15:25,637 1 INFO surtidores odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'es_ES', 'tz': 'Europe/Madrid', 'uid': 2}}> 
+2023-06-02 16:15:25,670 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "POST /web_editor/public_render_template HTTP/1.1" 200 - 25 0.017 0.033
+2023-06-02 16:15:25,693 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "GET /web/assets/88-31b0c75/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 2 0.002 0.010
+2023-06-02 16:15:25,700 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "GET /web/assets/89-31b0c75/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 2 0.003 0.015
+2023-06-02 16:15:25,766 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.004
+2023-06-02 16:15:25,776 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:25] "GET /web_editor/static/src/xml/editor.xml?debug=1685722525770 HTTP/1.1" 200 - - - -
+2023-06-02 16:15:28,833 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-06-02 16:15:35,182 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:35] "POST /web/action/load HTTP/1.1" 200 - 28 0.038 0.044
+2023-06-02 16:15:35,303 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:35] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 54 0.051 0.056
+2023-06-02 16:15:35,384 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:35] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.034 0.027
+2023-06-02 16:15:35,414 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:35] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.005 0.011
+2023-06-02 16:15:37,740 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:37] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.010 0.023
+2023-06-02 16:15:37,777 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:37] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.039 0.033
+2023-06-02 16:15:41,130 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:41] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.052 0.033
+2023-06-02 16:15:41,166 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:41] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.012 0.007
+2023-06-02 16:15:44,020 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:44] "POST /web/action/load HTTP/1.1" 200 - 16 0.022 0.027
+2023-06-02 16:15:44,069 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:44] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.012 0.018
+2023-06-02 16:15:44,097 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:44] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.004 0.008
+2023-06-02 16:15:45,143 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:45] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.009 0.015
+2023-06-02 16:15:45,171 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:45] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.003 0.009
+2023-06-02 16:15:45,193 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:15:45,499 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:15:46,481 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:46] "POST /web/dataset/call_button HTTP/1.1" 200 - 1057 0.577 0.718
+2023-06-02 16:15:48,492 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:15:48,496 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:15:48,498 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:15:48,758 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:15:49,524 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:15:49,536 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:15:49,550 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:15:49,554 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-02 16:15:49,581 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-02 16:15:49,589 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-02 16:15:49,615 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-02 16:15:49,617 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-02 16:15:49,905 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:15:50,928 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-02 16:15:50,940 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-02 16:15:50,941 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-02 16:15:51,009 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-02 16:15:51,106 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-02 16:15:51,117 1 INFO surtidores odoo.modules.loading: loading surtidores/views/templates.xml 
+2023-06-02 16:15:51,140 1 INFO surtidores odoo.addons.base.models.ir_translation: module surtidores: no translation for language es 
+2023-06-02 16:15:51,148 1 WARNING surtidores odoo.modules.loading: The models ['cliente'] have no access rules in module surtidores, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+surtidores.access_cliente,access_cliente,surtidores.model_cliente,base.group_user,1,0,0,0 
+2023-06-02 16:15:51,157 1 INFO surtidores odoo.modules.loading: Module surtidores loaded in 0.22s, 33 queries 
+2023-06-02 16:15:51,212 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.27s, 33 queries (+0 extra) 
+2023-06-02 16:15:51,723 1 INFO surtidores odoo.modules.registry: verifying fields for every extended model 
+2023-06-02 16:15:52,087 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-02 16:15:52,096 1 INFO surtidores odoo.modules.registry: Registry loaded in 2.524s 
+2023-06-02 16:15:52,097 1 INFO surtidores odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-06-02 16:15:52,103 1 INFO surtidores odoo.modules.registry: Registry changed, signaling through the database 
+2023-06-02 16:15:52,107 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:52] "POST /web/dataset/call_button HTTP/1.1" 200 - 2830 1.708 1.922
+2023-06-02 16:15:52,150 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-02 16:15:53,068 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web HTTP/1.1" 200 - 331 0.242 0.679
+2023-06-02 16:15:53,138 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/assets/83-6c39668/web.assets_common.min.css HTTP/1.1" 200 - 2 0.008 0.036
+2023-06-02 16:15:53,197 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/assets/86-412ece4/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.013 0.068
+2023-06-02 16:15:53,198 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/assets/84-412ece4/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.009 0.085
+2023-06-02 16:15:53,202 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/webclient/load_menus/d21f6ccaeee752c34b0a96e90394ed12051a52fdd3cd43b2ceae0a08fdbcdc3e HTTP/1.1" 200 - 1 0.017 0.053
+2023-06-02 16:15:53,203 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/assets/85-6c39668/web.assets_common.min.js HTTP/1.1" 304 - 2 0.015 0.081
+2023-06-02 16:15:53,204 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/assets/87-f18f3d4/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.019 0.065
+2023-06-02 16:15:53,318 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 7 0.023 0.085
+2023-06-02 16:15:53,369 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/webclient/qweb/0611084b1a4b5b7d0c3d699e9809657bec93f106d87e04334dfb247171bf7b5b?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.004 0.177
+2023-06-02 16:15:53,544 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.018 0.050
+2023-06-02 16:15:53,624 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.016 0.049
+2023-06-02 16:15:53,746 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.007 0.019
+2023-06-02 16:15:53,764 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-06-02 16:15:53,811 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 7 0.045 0.042
+2023-06-02 16:15:53,830 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:53] "POST /web/action/load HTTP/1.1" 200 - 8 0.055 0.032
+2023-06-02 16:15:54,057 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:54] "POST /mail/init_messaging HTTP/1.1" 200 - 69 0.323 0.072
+2023-06-02 16:15:54,098 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:54] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.008 0.013
+2023-06-02 16:15:54,101 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:54] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.006 0.014
+2023-06-02 16:15:54,109 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:54] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.009 0.014
+2023-06-02 16:15:54,142 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:54] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.006 0.017
+2023-06-02 16:15:54,926 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:15:54] "GET /web_tour/static/src/xml/tip.xml?debug=1685722554915 HTTP/1.1" 200 - - - -
+2023-06-02 16:16:03,017 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "POST /web/action/load HTTP/1.1" 200 - 52 0.057 0.056
+2023-06-02 16:16:03,191 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "POST /web/dataset/call_kw/res.config.settings/load_views HTTP/1.1" 200 - 59 0.038 0.122
+2023-06-02 16:16:03,419 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 206 0.107 0.081
+2023-06-02 16:16:03,575 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "POST /base_setup/data HTTP/1.1" 200 - 6 0.006 0.009
+2023-06-02 16:16:03,579 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "POST /base_setup/demo_active HTTP/1.1" 200 - 4 0.005 0.009
+2023-06-02 16:16:03,687 1 INFO surtidores odoo.http: <function odoo.addons.web_editor.controllers.main.public_render_template> called ignoring args <kwargs={'context': {'lang': 'es_ES', 'tz': 'Europe/Madrid', 'uid': 2}}> 
+2023-06-02 16:16:03,727 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "POST /web_editor/public_render_template HTTP/1.1" 200 - 25 0.025 0.043
+2023-06-02 16:16:03,754 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "GET /web/assets/88-31b0c75/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 2 0.001 0.013
+2023-06-02 16:16:03,758 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "GET /web/assets/89-31b0c75/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 2 0.003 0.015
+2023-06-02 16:16:03,824 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.001 0.007
+2023-06-02 16:16:03,837 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:03] "GET /web_editor/static/src/xml/editor.xml?debug=1685722563831 HTTP/1.1" 200 - - - -
+2023-06-02 16:16:12,822 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:12] "POST /web/action/load HTTP/1.1" 200 - 22 0.026 0.032
+2023-06-02 16:16:12,974 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:12] "POST /web/dataset/call_kw/ir.model/load_views HTTP/1.1" 200 - 64 0.063 0.068
+2023-06-02 16:16:13,007 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:13] "POST /web/dataset/search_read HTTP/1.1" 200 - 5 0.006 0.007
+2023-06-02 16:16:13,029 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:13] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.006
+2023-06-02 16:16:18,839 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:18] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.019 50.029
+2023-06-02 16:16:25,333 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:25] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.006 0.007
+2023-06-02 16:16:32,380 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:32] "POST /web/dataset/call_kw/ir.ui.view/load_views HTTP/1.1" 200 - 18 0.020 0.027
+2023-06-02 16:16:32,437 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:32] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 19 0.020 0.020
+2023-06-02 16:16:32,463 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:32] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.003 0.007
+2023-06-02 16:16:32,549 1 INFO ? werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:32] "GET /web/static/img/form_sheetbg.png HTTP/1.1" 304 - - - -
+2023-06-02 16:16:44,070 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:44] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.070 50.259
+2023-06-02 16:16:44,174 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:16:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.013
+2023-06-02 16:17:34,131 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:17:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.010 50.020
+2023-06-02 16:17:34,763 1 INFO surtidores werkzeug: 172.22.0.1 - - [02/Jun/2023 16:17:34] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.006 0.014
