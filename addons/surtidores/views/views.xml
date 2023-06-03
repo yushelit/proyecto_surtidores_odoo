@@ -1,28 +1,47 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-<!--
-    <record model="ir.ui.view" id="surtidores.list">
-      <field name="name">surtidores list</field>
-      <field name="model">surtidores.surtidores</field>
+
+    <record model="ir.ui.view" id="surtidores.clientes_list">
+      <field name="name">surtidores.cliente list</field>
+      <field name="model">surtidores.cliente</field>
       <field name="arch" type="xml">
         <tree>
+          <field name="dni"/>
           <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
+          <field name="apellidos"/>
+          <field name="fecha_registro"/>
         </tree>
       </field>
     </record>
--->
+
 
     <!-- actions opening views on models -->
-<!--
-    <record model="ir.actions.act_window" id="surtidores.action_window">
-      <field name="name">surtidores window</field>
-      <field name="res_model">surtidores.surtidores</field>
+
+    <record model="ir.actions.act_window" id="surtidores.action_clientes_window">
+      <field name="name">surtidores.cliente window</field>
+      <field name="res_model">surtidores.cliente</field>
       <field name="view_mode">tree,form</field>
     </record>
--->
+
+    <record model="ir.actions.act_window" id="surtidores.action_camion_window">
+      <field name="name">surtidores.camion window</field>
+      <field name="res_model">surtidores.camion</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="surtidores.action_producto_window">
+      <field name="name">surtidores.producto window</field>
+      <field name="res_model">surtidores.producto</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="surtidores.action_envase_window">
+      <field name="name">surtidores.envase window</field>
+      <field name="res_model">surtidores.envase</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
 
     <!-- server action to the one above -->
 <!--
@@ -41,20 +60,19 @@
 -->
 
     <!-- Top menu item -->
-<!--
-    <menuitem name="surtidores" id="surtidores.menu_root"/>
--->
+
+    <menuitem name="Surtidores" id="surtidores.menu_root"/>
+
     <!-- menu categories -->
-<!--
-    <menuitem name="Menu 1" id="surtidores.menu_1" parent="surtidores.menu_root"/>
-    <menuitem name="Menu 2" id="surtidores.menu_2" parent="surtidores.menu_root"/>
--->
+
+    <menuitem name="Administración" id="surtidores.menu_1" parent="surtidores.menu_root"/>
+
     <!-- actions -->
-<!--
-    <menuitem name="List" id="surtidores.menu_1_list" parent="surtidores.menu_1"
-              action="surtidores.action_window"/>
-    <menuitem name="Server to list" id="surtidores" parent="surtidores.menu_2"
-              action="surtidores.action_server"/>
--->
+
+    <menuitem name="Clientes" id="surtidores.menu_clientes_list" parent="surtidores.menu_1" action="surtidores.action_clientes_window"/>
+    <menuitem name="Camiones" id="surtidores.menu_camion_list" parent="surtidores.menu_1" action="surtidores.action_camion_window"/>
+    <menuitem name="Productos" id="surtidores.menu_producto_list" parent="surtidores.menu_1" action="surtidores.action_producto_window"/>
+    <menuitem name="Envase" id="surtidores.menu_envase_list" parent="surtidores.menu_1" action="surtidores.action_envase_window"/>
+
   </data>
 </odoo>

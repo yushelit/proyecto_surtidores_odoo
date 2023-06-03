@@ -1,2 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_surtidores_surtidores,surtidores.surtidores,model_surtidores_surtidores,base.group_user,1,1,1,1
+access_surtidores_cliente,surtidores.cliente,model_surtidores_cliente,base.group_user,1,1,1,1
+access_surtidores_camion,surtidores.camion,model_surtidores_camion,base.group_user,1,1,1,1
+access_surtidores_producto,surtidores.producto,model_surtidores_producto,base.group_user,1,1,1,1
+access_surtidores_envase,surtidores.envase,model_surtidores_envase,base.group_user,1,1,1,1
