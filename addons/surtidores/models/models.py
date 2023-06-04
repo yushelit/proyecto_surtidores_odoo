@@ -44,9 +44,9 @@ class camion(models.Model):
     _name = 'surtidores.camion'
     _description = 'surtidores.camion'
 
-    name = fields.Char(string="Nombre", required=True, help="Nombre")
+    name = fields.Char(string="Nombre", help="Nombre")
     matricula = fields.Char(string="Matricula", required=True, help="Matricula")
-    modelo = fields.Char(string="Modelo", required=True, help="Modelo")
+    modelo = fields.Char(string="Modelo", help="Modelo")
     foto = fields.Image(string="Foto", help="Añadir foto")
 
     @api.constrains('matricula')
@@ -64,21 +64,25 @@ class producto(models.Model):
     _name = 'surtidores.producto'
     _description = 'surtidores.producto'
 
-
     tipo_combustible = fields.Selection([
-        ('diesel', 'Diesel'),
         ('gasolina', 'Gasolina'),
-        ('queroseno', 'Queroseno'),
+        ('diesel', 'Diesel'),
         ('metano', 'Metano'),
+        ('queroseno', 'Queroseno'),
+        ('tnt', 'TrinitroTolueno'),
+        ('nt', 'NitroGlicerina'),
+        ('etanol', 'Etanol'),
+        ('pentano', 'Pentano'),
         ('butano', 'Butano'), ], string='Tipo de Combustible', required=True,
         default='gasolina')
+
 
 # Modelo Envase
 class envase(models.Model):
     _name = 'surtidores.envase'
     _description = 'surtidores.envase'
 
-    identificador = fields.Char(string="id", required=True, help="id")
+    identificador = fields.Char(string="id", help="id")
     tipo_combustible = fields.Many2one("surtidores.producto", ondelete="set null", help="Combustible que llevara el envase")
     capacidad = fields.Selection([
         ('20', '20'),
@@ -91,3 +95,15 @@ class envase(models.Model):
         ('55', '55'),
         ('60', '60'), ], string='Capacidad', required=True,
         default='20')
+
+
+# Modelo Viaje
+class viaje(models.Model):
+    _name = 'surtidores.viaje'
+    _description = 'surtidores.viaje'
+
+    origen = fields.Char(string="Origen", help="Origen")
+    destino = fields.Char(string="Destino", help="Destino")
+    cliente = fields.Many2one("surtidores.cliente")
+    camion = fields.Many2one("surtidores.camion")
+    envases = fields.Many2many("surtidores.envase")

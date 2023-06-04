@@ -2,6 +2,8 @@
   <data>
     <!-- explicit list view definition -->
 
+<!--    VISTAS TREE-->
+<!--    Vista tree del modelo cliente-->
     <record model="ir.ui.view" id="surtidores.clientes_list">
       <field name="name">surtidores.cliente list</field>
       <field name="model">surtidores.cliente</field>
@@ -15,13 +17,98 @@
       </field>
     </record>
 
+<!--    vista tree del modelo camión-->
+    <record model="ir.ui.view" id="surtidores.clientes_list">
+      <field name="name">surtidores.cliente list</field>
+      <field name="model">surtidores.cliente</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="dni"/>
+          <field name="name"/>
+          <field name="apellidos"/>
+          <field name="fecha_registro"/>
+        </tree>
+      </field>
+    </record>
+
+<!--    vista form del modelo cliente-->
+    <record model="ir.ui.view" id="surtidores.cliente_form">
+      <field name="name">surtidores.cliente form</field>
+      <field name="model">surtidores.cliente</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <h1>
+              Nombre:
+              <field name="name"/><separator/>
+              Apellido:
+              <field name="apellidos"/>
+            </h1>
+            <group>
+              <field name="foto" widget="image" options="{'size': (200, 200)}" class="o_image_preview"/>
+            </group>
+            <notebook>
+              <page string="Datos personales">
+                DNI: <field name="dni"/><separator/>
+                Edad: <field name="edad"/><separator/>
+                registrado: <field name="fecha_registro"/>
+              </page>
+              <page string="Direccion">
+                Ciudad: <field name="ciudad"/><separator/>
+                Direccion: <field name="direccion"/>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!--vista kanban del modelo cliente-->
+    <record model="ir.ui.view" id="surtidores.cliente_kanban">
+    <field name="name">surtidores.cliente kanban</field>
+    <field name="model">surtidores.cliente</field>
+    <field name="arch" type="xml">
+      <kanban>
+        <field name="name"/>
+        <field name="apellidos"/>
+        <field name="fecha_registro"/>
+        <templates>
+          <t t-name="kanban-box">
+            <div class="oe_kanban_card oe_kanban_global_click">
+              <div class="o_kanban_image mr-1">
+                <field name="foto" widget="image"/>
+              </div>
+              <div class="oe_kanban_details">
+                <div class="o_kanban_record_top mb-0">
+                  <div class="o_kanban_record_headings">
+                    <strong class="o_kanban_record_title">
+                      <field name="name"/><p></p>
+                      <field name="apellidos"/>
+                    </strong>
+                  </div>
+                </div>
+                <div name="product_lst_price" class="mt-1">
+                  Fecha de Registro: <field name="fecha_registro"/>
+                  <p/>
+                  Edad: <field name="edad"/>
+                  <p/>
+                  Localidad: <field name="ciudad"/>
+                </div>
+              </div>
+            </div>
+          </t>
+        </templates>
+      </kanban>
+    </field>
+  </record>
+
 
     <!-- actions opening views on models -->
 
     <record model="ir.actions.act_window" id="surtidores.action_clientes_window">
       <field name="name">surtidores.cliente window</field>
       <field name="res_model">surtidores.cliente</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,kanban</field>
     </record>
 
     <record model="ir.actions.act_window" id="surtidores.action_camion_window">
@@ -39,6 +126,12 @@
     <record model="ir.actions.act_window" id="surtidores.action_envase_window">
       <field name="name">surtidores.envase window</field>
       <field name="res_model">surtidores.envase</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="surtidores.action_viaje_window">
+      <field name="name">surtidores.viaje window</field>
+      <field name="res_model">surtidores.viaje</field>
       <field name="view_mode">tree,form</field>
     </record>
 
@@ -73,6 +166,7 @@
     <menuitem name="Camiones" id="surtidores.menu_camion_list" parent="surtidores.menu_1" action="surtidores.action_camion_window"/>
     <menuitem name="Productos" id="surtidores.menu_producto_list" parent="surtidores.menu_1" action="surtidores.action_producto_window"/>
     <menuitem name="Envase" id="surtidores.menu_envase_list" parent="surtidores.menu_1" action="surtidores.action_envase_window"/>
+    <menuitem name="Viajes" id="surtidores.menu_viaje_list" parent="surtidores.menu_1" action="surtidores.action_viaje_window"/>
 
   </data>
 </odoo>

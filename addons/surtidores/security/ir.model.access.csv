@@ -3,3 +3,4 @@ access_surtidores_cliente,surtidores.cliente,model_surtidores_cliente,base.group
 access_surtidores_camion,surtidores.camion,model_surtidores_camion,base.group_user,1,1,1,1
 access_surtidores_producto,surtidores.producto,model_surtidores_producto,base.group_user,1,1,1,1
 access_surtidores_envase,surtidores.envase,model_surtidores_envase,base.group_user,1,1,1,1
+access_surtidores_viaje,surtidores.viaje,model_surtidores_viaje,base.group_user,1,1,1,1
