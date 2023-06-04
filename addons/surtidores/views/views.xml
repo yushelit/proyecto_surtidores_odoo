@@ -18,19 +18,56 @@
     </record>
 
 <!--    vista tree del modelo camión-->
-    <record model="ir.ui.view" id="surtidores.clientes_list">
-      <field name="name">surtidores.cliente list</field>
-      <field name="model">surtidores.cliente</field>
+    <record model="ir.ui.view" id="surtidores.camiones_list">
+      <field name="name">surtidores.camion list</field>
+      <field name="model">surtidores.camion</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="dni"/>
-          <field name="name"/>
-          <field name="apellidos"/>
-          <field name="fecha_registro"/>
+          <field name="matricula"/>
+          <field name="modelo"/>
         </tree>
       </field>
     </record>
 
+    <!--vista tree del modelo producto-->
+    <record model="ir.ui.view" id="surtidores.productos_list">
+      <field name="name">surtidores.producto list</field>
+      <field name="model">surtidores.producto</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="tipo_combustible"/>
+          <field name="precio"/>
+        </tree>
+      </field>
+    </record>
+
+    <!--vista tree del modelo envase-->
+    <record model="ir.ui.view" id="surtidores.envases_list">
+      <field name="name">surtidores.envase list</field>
+      <field name="model">surtidores.envase</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="identificador"/>
+          <field name="tipo_combustible"/>
+          <field name="capacidad"/>
+        </tree>
+      </field>
+    </record>
+
+    <!--vista tree del modelo viaje-->
+    <record model="ir.ui.view" id="surtidores.viajes_list">
+      <field name="name">surtidores.viaje list</field>
+      <field name="model">surtidores.viaje</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="origen"/>
+          <field name="destino"/>
+          <field name="cliente"/>
+        </tree>
+      </field>
+    </record>
+
+<!--    VISTAS FORM-->
 <!--    vista form del modelo cliente-->
     <record model="ir.ui.view" id="surtidores.cliente_form">
       <field name="name">surtidores.cliente form</field>

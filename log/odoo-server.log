@@ -21012,3 +21012,1065 @@ psycopg2.OperationalError: connection to server at "db" (172.22.0.2), port 5432 
 2023-06-04 00:34:20,381 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:34:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.009
 2023-06-04 00:35:09,228 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:35:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.016
 2023-06-04 00:35:11,348 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:35:11] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.010
+2023-06-04 00:35:59,271 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:35:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.016
+2023-06-04 00:36:02,334 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:36:02] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2023-06-04 00:36:49,300 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:36:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.013
+2023-06-04 00:36:53,341 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:36:53] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2023-06-04 00:37:39,332 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:37:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.013
+2023-06-04 00:37:44,353 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:37:44] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.010
+2023-06-04 00:37:47,090 1 INFO surtidores odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-06-04 00:37:47,101 1 INFO surtidores odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-06-04 00:38:29,366 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:38:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.016
+2023-06-04 00:38:35,350 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:38:35] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.011
+2023-06-04 00:39:19,395 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:39:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.014
+2023-06-04 00:39:26,358 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:39:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.015
+2023-06-04 00:40:09,424 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:40:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.013
+2023-06-04 00:40:17,339 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:40:17] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.011
+2023-06-04 00:40:59,456 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:40:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.014
+2023-06-04 00:41:08,351 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:41:08] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2023-06-04 00:41:49,490 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:41:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.016
+2023-06-04 00:41:59,345 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:41:59] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.010
+2023-06-04 00:42:39,523 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:42:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.016
+2023-06-04 00:42:50,342 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:42:50] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.010
+2023-06-04 00:43:29,555 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:43:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.015
+2023-06-04 00:43:41,348 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:43:41] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.007
+2023-06-04 00:44:19,589 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:44:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.008 50.015
+2023-06-04 00:44:32,352 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:44:32] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.012
+2023-06-04 00:45:09,623 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:45:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.016
+2023-06-04 00:45:23,340 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:45:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.008
+2023-06-04 00:45:59,655 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:45:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.014
+2023-06-04 00:46:14,349 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:46:14] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.010
+2023-06-04 00:46:49,691 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:46:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.014
+2023-06-04 00:47:05,337 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:47:05] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.009
+2023-06-04 00:47:39,724 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:47:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.014
+2023-06-04 00:47:47,635 1 INFO surtidores odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2023-06-04 00:47:47,641 1 INFO surtidores odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2023-06-04 00:47:56,352 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:47:56] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.011
+2023-06-04 00:48:27,581 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:48:27] "POST /web/action/load HTTP/1.1" 200 - 16 0.016 0.021
+2023-06-04 00:48:27,620 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:48:27] "POST /web/dataset/call_kw/surtidores.envase/load_views HTTP/1.1" 200 - 13 0.012 0.014
+2023-06-04 00:48:27,643 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:48:27] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.006
+2023-06-04 00:48:28,974 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:48:28] "POST /web/dataset/call_kw/surtidores.envase/onchange HTTP/1.1" 200 - 3 0.003 0.008
+2023-06-04 00:48:29,757 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:48:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.015
+2023-06-04 00:48:30,711 1 WARNING surtidores odoo.models: Cannot execute name_search, no _rec_name defined on surtidores.producto 
+2023-06-04 00:48:30,719 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:48:30] "POST /web/dataset/call_kw/surtidores.producto/name_search HTTP/1.1" 200 - 4 0.004 0.008
+2023-06-04 00:48:47,381 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:48:47] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.016
+2023-06-04 00:49:19,782 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:49:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.012
+2023-06-04 00:49:38,340 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:49:38] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.008
+2023-06-04 00:50:09,809 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:50:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.013
+2023-06-04 00:50:29,350 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:50:29] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.003 0.009
+2023-06-04 00:50:59,841 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:50:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.014
+2023-06-04 00:51:20,346 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:20] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.011
+2023-06-04 00:51:26,337 1 INFO ? werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:26] "GET /web_tour/static/src/xml/tip.xml?debug=1685839886327 HTTP/1.1" 200 - - - -
+2023-06-04 00:51:27,143 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:27] "POST /web/action/load HTTP/1.1" 200 - 28 0.027 0.032
+2023-06-04 00:51:27,253 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:27] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 52 0.041 0.048
+2023-06-04 00:51:27,344 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:27] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.037 0.033
+2023-06-04 00:51:27,368 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:27] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.008
+2023-06-04 00:51:29,051 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:29] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.008 0.013
+2023-06-04 00:51:29,102 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.040 0.034
+2023-06-04 00:51:31,063 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.049 0.023
+2023-06-04 00:51:31,086 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:31] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.006 0.007
+2023-06-04 00:51:33,658 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:51:33,661 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:51:33,663 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:51:34,283 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:51:34,755 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:51:34,767 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:51:34,785 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:51:34,789 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:51:34,818 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:51:34,827 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:51:34,850 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-04 00:51:34,853 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-04 00:51:35,404 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:51:35,888 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:51:35,900 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:51:35,901 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-04 00:51:35,956 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-04 00:51:36,229 1 INFO surtidores odoo.modules.loading: loading surtidores/security/ir.model.access.csv 
+2023-06-04 00:51:36,273 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-04 00:51:36,309 1 WARNING surtidores odoo.modules.loading: Transient module states were reset 
+2023-06-04 00:51:36,312 1 ERROR surtidores odoo.modules.registry: Failed to load registry 
+2023-06-04 00:51:36,313 1 ERROR surtidores odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 586, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4431, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4347, in _load_records_create
+    return self.create(values)
+  File "<decorator-gen-42>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 546, in create
+    result = super(View, self.with_context(ir_ui_view_partial_validation=True)).create(vals_list)
+  File "<decorator-gen-67>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_fields.py", line 613, in create
+    recs = super().create(vals_list)
+  File "<decorator-gen-13>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4079, in create
+    records = self._create(data_list)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4244, in _create
+    records._validate_fields(name for data in data_list for name in data['stored'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1367, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 467, in _check_xml
+    raise err.with_traceback(e.__traceback__) from None
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 441, in _check_xml
+    view._validate_view(combined_arch, view.model)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1299, in _validate_view
+    validator(node, name_manager, node_info)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1408, in _validate_tag_field
+    self._raise_view_error(msg, node)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 746, in _raise_view_error
+    raise err from from_exception
+odoo.exceptions.ValidationError: Ocurrió un error al validar vista cercana
+
+<tree __validate__="1">
+          <field name="tipo_combustrible"/>
+          <field name="precio"/>
+        </tree>
+El campo "tipo_combustrible" no existe en el modelo "surtidores.producto"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1346, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1334, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-80>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 470, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 814, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 734, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 694, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/surtidores/views/views.xml:33
+Ocurrió un error al validar vista cercana
+
+<tree __validate__="1">
+          <field name="tipo_combustrible"/>
+          <field name="precio"/>
+        </tree>
+El campo "tipo_combustrible" no existe en el modelo "surtidores.producto"
+
+View error context:
+{'file': '/mnt/extra-addons/surtidores/views/views.xml',
+ 'line': 3,
+ 'name': 'surtidores.producto list',
+ 'view': ir.ui.view(890,),
+ 'view.model': 'surtidores.producto',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'surtidores.productos_list'}
+
+2023-06-04 00:51:36,329 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:51:36,338 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:51:36,362 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:51:36,369 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:51:36,401 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.03s, 0 queries (+0 extra) 
+2023-06-04 00:51:36,555 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-04 00:51:36,561 1 INFO surtidores odoo.modules.registry: Registry loaded in 0.240s 
+2023-06-04 00:51:36,563 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:36] "POST /web/dataset/call_button HTTP/1.1" 200 - 2246 1.191 1.725
+2023-06-04 00:51:49,873 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.015
+2023-06-04 00:51:49,887 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-04 00:51:52,729 1 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 178, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 201, in run
+    self.loop()
+  File "/usr/lib/python3/dist-packages/odoo/addons/bus/models/bus.py", line 187, in loop
+    event.set()
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 162, in __exit__
+    self.close()
+  File "<decorator-gen-4>", line 2, in close
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 379, in close
+    return self._close(False)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 405, in _close
+    self.rollback()
+  File "<decorator-gen-8>", line 2, in rollback
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 484, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2023-06-04 00:51:52,738 1 INFO surtidores odoo.sql_db: Connection to the database failed 
+2023-06-04 00:51:52,740 1 WARNING surtidores odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 658, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.22.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2023-06-04 00:51:52,743 1 INFO surtidores odoo.sql_db: Connection to the database failed 
+2023-06-04 00:51:52,746 1 WARNING surtidores odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 709, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 259, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 592, in _locked
+    return fun(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/sql_db.py", line 658, in borrow
+    result = psycopg2.connect(
+  File "/usr/lib/python3/dist-packages/psycopg2/__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "db" (172.22.0.2), port 5432 failed: FATAL:  the database system is shutting down
+
+2023-06-04 00:51:53,762 1 INFO ? odoo.service.server: Initiating shutdown 
+2023-06-04 00:51:53,763 1 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-06-04 00:51:53,888 1 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-06-04 00:51:53,909 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:51:53] "POST /longpolling/poll HTTP/1.1" 200 - 15 0.014 4.011
+2023-06-04 00:51:56,125 1 INFO ? odoo: Odoo version 15.0-20230109 
+2023-06-04 00:51:56,128 1 INFO ? odoo: Using configuration file at /etc/odoo/odoo.conf 
+2023-06-04 00:51:56,129 1 INFO ? odoo: addons paths: ['/usr/lib/python3/dist-packages/odoo/addons', '/var/lib/odoo/addons/15.0', '/mnt/extra-addons'] 
+2023-06-04 00:51:56,130 1 INFO ? odoo: database: odoo@db:5432 
+2023-06-04 00:51:56,268 1 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2023-06-04 00:51:56,566 1 INFO ? odoo.service.server: HTTP service (werkzeug) running on 1e86d4068914:8069 
+2023-06-04 00:51:59,510 1 INFO ? odoo.http: HTTP Configuring static files 
+2023-06-04 00:51:59,529 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:51:59,538 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:51:59,562 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:51:59,570 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:51:59,684 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:00,105 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.53s, 0 queries (+0 extra) 
+2023-06-04 00:52:00,292 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-04 00:52:00,298 1 INFO surtidores odoo.modules.registry: Registry loaded in 0.784s 
+2023-06-04 00:52:00,301 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-04 00:52:00,488 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:52:00,491 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:52:00,492 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:52:01,293 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:01,706 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:01,718 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:01,737 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:01,742 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:52:01,780 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:52:01,789 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:52:01,814 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-04 00:52:01,817 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-04 00:52:02,570 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:03,012 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:03,028 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:52:03,029 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-04 00:52:03,083 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-04 00:52:03,216 1 INFO surtidores odoo.modules.loading: loading surtidores/security/ir.model.access.csv 
+2023-06-04 00:52:03,272 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-04 00:52:03,322 1 WARNING surtidores odoo.modules.loading: Transient module states were reset 
+2023-06-04 00:52:03,325 1 ERROR surtidores odoo.modules.registry: Failed to load registry 
+2023-06-04 00:52:03,326 1 ERROR surtidores odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 586, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4431, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4347, in _load_records_create
+    return self.create(values)
+  File "<decorator-gen-42>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 546, in create
+    result = super(View, self.with_context(ir_ui_view_partial_validation=True)).create(vals_list)
+  File "<decorator-gen-67>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_fields.py", line 613, in create
+    recs = super().create(vals_list)
+  File "<decorator-gen-13>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4079, in create
+    records = self._create(data_list)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4244, in _create
+    records._validate_fields(name for data in data_list for name in data['stored'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1367, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 467, in _check_xml
+    raise err.with_traceback(e.__traceback__) from None
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 441, in _check_xml
+    view._validate_view(combined_arch, view.model)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1299, in _validate_view
+    validator(node, name_manager, node_info)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1408, in _validate_tag_field
+    self._raise_view_error(msg, node)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 746, in _raise_view_error
+    raise err from from_exception
+odoo.exceptions.ValidationError: Ocurrió un error al validar vista cercana
+
+<tree __validate__="1">
+          <field name="tipo_combustrible"/>
+          <field name="precio"/>
+        </tree>
+El campo "tipo_combustrible" no existe en el modelo "surtidores.producto"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1346, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1334, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-80>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 470, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 814, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 734, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 694, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/surtidores/views/views.xml:33
+Ocurrió un error al validar vista cercana
+
+<tree __validate__="1">
+          <field name="tipo_combustrible"/>
+          <field name="precio"/>
+        </tree>
+El campo "tipo_combustrible" no existe en el modelo "surtidores.producto"
+
+View error context:
+{'file': '/mnt/extra-addons/surtidores/views/views.xml',
+ 'line': 3,
+ 'name': 'surtidores.producto list',
+ 'view': ir.ui.view(892,),
+ 'view.model': 'surtidores.producto',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'surtidores.productos_list'}
+
+2023-06-04 00:52:03,345 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:52:03,362 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-06-04 00:52:03,385 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:03,393 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:52:03,442 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.05s, 0 queries (+0 extra) 
+2023-06-04 00:52:03,650 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-04 00:52:03,657 1 INFO surtidores odoo.modules.registry: Registry loaded in 0.323s 
+2023-06-04 00:52:03,659 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:52:03] "POST /web/dataset/call_button HTTP/1.1" 200 - 2275 1.307 2.838
+2023-06-04 00:52:07,956 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-04 00:52:08,226 1 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-06-04 00:52:10,427 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:52:10] "POST /longpolling/im_status HTTP/1.1" 200 - 17 0.038 0.029
+2023-06-04 00:52:37,199 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:52:37,202 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:52:37,203 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:52:38,178 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:38,682 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:38,695 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:38,714 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:38,719 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:52:38,748 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:52:38,757 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:52:38,782 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-04 00:52:38,784 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-04 00:52:39,512 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:39,864 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:39,876 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:52:39,877 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-04 00:52:39,918 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-04 00:52:39,993 1 INFO surtidores odoo.modules.loading: loading surtidores/security/ir.model.access.csv 
+2023-06-04 00:52:40,038 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-04 00:52:40,079 1 WARNING surtidores odoo.modules.loading: Transient module states were reset 
+2023-06-04 00:52:40,082 1 ERROR surtidores odoo.modules.registry: Failed to load registry 
+2023-06-04 00:52:40,083 1 ERROR surtidores odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 586, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4431, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4347, in _load_records_create
+    return self.create(values)
+  File "<decorator-gen-42>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 546, in create
+    result = super(View, self.with_context(ir_ui_view_partial_validation=True)).create(vals_list)
+  File "<decorator-gen-67>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_fields.py", line 613, in create
+    recs = super().create(vals_list)
+  File "<decorator-gen-13>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4079, in create
+    records = self._create(data_list)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4244, in _create
+    records._validate_fields(name for data in data_list for name in data['stored'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1367, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 467, in _check_xml
+    raise err.with_traceback(e.__traceback__) from None
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 441, in _check_xml
+    view._validate_view(combined_arch, view.model)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1299, in _validate_view
+    validator(node, name_manager, node_info)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1408, in _validate_tag_field
+    self._raise_view_error(msg, node)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 746, in _raise_view_error
+    raise err from from_exception
+odoo.exceptions.ValidationError: Ocurrió un error al validar vista cercana
+
+          <field name="identificador"/>
+          <field name="tipo_Combustible"/>
+          <field name="capacidad"/>
+        </tree>
+El campo "tipo_Combustible" no existe en el modelo "surtidores.envase"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1346, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1334, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-80>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 470, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 814, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 734, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 694, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/surtidores/views/views.xml:45
+Ocurrió un error al validar vista cercana
+
+          <field name="identificador"/>
+          <field name="tipo_Combustible"/>
+          <field name="capacidad"/>
+        </tree>
+El campo "tipo_Combustible" no existe en el modelo "surtidores.envase"
+
+View error context:
+{'file': '/mnt/extra-addons/surtidores/views/views.xml',
+ 'line': 4,
+ 'name': 'surtidores.envase list',
+ 'view': ir.ui.view(895,),
+ 'view.model': 'surtidores.envase',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'surtidores.envases_list'}
+
+2023-06-04 00:52:40,092 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:52:40,102 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:52:40,124 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:52:40,131 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:52:40,165 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.03s, 0 queries (+0 extra) 
+2023-06-04 00:52:40,398 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-04 00:52:40,404 1 INFO surtidores odoo.modules.registry: Registry loaded in 0.318s 
+2023-06-04 00:52:40,406 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:52:40] "POST /web/dataset/call_button HTTP/1.1" 200 - 2262 1.350 1.866
+2023-06-04 00:52:58,232 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:52:58] "POST /longpolling/poll HTTP/1.1" 200 - 15 0.015 50.264
+2023-06-04 00:52:58,243 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-04 00:53:00,489 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:00] "POST /longpolling/im_status HTTP/1.1" 200 - 17 0.025 0.027
+2023-06-04 00:53:01,902 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:53:01,905 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:53:01,907 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:53:02,809 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:03,351 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:03,364 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:03,382 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:03,387 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:53:03,414 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:53:03,423 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:53:03,446 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-04 00:53:03,449 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-04 00:53:04,165 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:04,529 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:04,541 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:53:04,542 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-04 00:53:04,582 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-04 00:53:04,648 1 INFO surtidores odoo.modules.loading: loading surtidores/security/ir.model.access.csv 
+2023-06-04 00:53:04,691 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-04 00:53:04,731 1 WARNING surtidores odoo.modules.loading: Transient module states were reset 
+2023-06-04 00:53:04,734 1 ERROR surtidores odoo.modules.registry: Failed to load registry 
+2023-06-04 00:53:04,735 1 ERROR surtidores odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 586, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4431, in _load_records
+    records = self._load_records_create([data['values'] for data in to_create])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4347, in _load_records_create
+    return self.create(values)
+  File "<decorator-gen-42>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 546, in create
+    result = super(View, self.with_context(ir_ui_view_partial_validation=True)).create(vals_list)
+  File "<decorator-gen-67>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_fields.py", line 613, in create
+    recs = super().create(vals_list)
+  File "<decorator-gen-13>", line 2, in create
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 413, in _model_create_multi
+    return create(self, arg)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4079, in create
+    records = self._create(data_list)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4244, in _create
+    records._validate_fields(name for data in data_list for name in data['stored'])
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1367, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 467, in _check_xml
+    raise err.with_traceback(e.__traceback__) from None
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 441, in _check_xml
+    view._validate_view(combined_arch, view.model)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1299, in _validate_view
+    validator(node, name_manager, node_info)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1408, in _validate_tag_field
+    self._raise_view_error(msg, node)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 746, in _raise_view_error
+    raise err from from_exception
+odoo.exceptions.ValidationError: Ocurrió un error al validar vista cercana
+
+          <field name="identificador"/>
+          <field name="tipo_Combustible"/>
+          <field name="capacidad"/>
+        </tree>
+El campo "tipo_Combustible" no existe en el modelo "surtidores.envase"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1346, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1334, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-80>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 470, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 814, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 734, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 694, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/surtidores/views/views.xml:45
+Ocurrió un error al validar vista cercana
+
+          <field name="identificador"/>
+          <field name="tipo_Combustible"/>
+          <field name="capacidad"/>
+        </tree>
+El campo "tipo_Combustible" no existe en el modelo "surtidores.envase"
+
+View error context:
+{'file': '/mnt/extra-addons/surtidores/views/views.xml',
+ 'line': 4,
+ 'name': 'surtidores.envase list',
+ 'view': ir.ui.view(898,),
+ 'view.model': 'surtidores.envase',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'surtidores.envases_list'}
+
+2023-06-04 00:53:04,744 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:53:04,755 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:53:04,778 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:04,785 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:53:04,819 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.03s, 0 queries (+0 extra) 
+2023-06-04 00:53:05,062 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-04 00:53:05,068 1 INFO surtidores odoo.modules.registry: Registry loaded in 0.330s 
+2023-06-04 00:53:05,069 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:05] "POST /web/dataset/call_button HTTP/1.1" 200 - 2262 1.323 1.856
+2023-06-04 00:53:26,780 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-04 00:53:26,944 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:53:26,946 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:53:26,947 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:53:27,921 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:28,379 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:28,392 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:28,416 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:28,423 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:53:28,459 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:53:28,514 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries (+0 extra) 
+2023-06-04 00:53:28,611 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-04 00:53:28,614 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-04 00:53:29,405 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:29,770 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:53:29,781 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:53:29,782 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-04 00:53:29,828 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-04 00:53:29,904 1 INFO surtidores odoo.modules.loading: loading surtidores/security/ir.model.access.csv 
+2023-06-04 00:53:29,950 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-04 00:53:30,097 1 INFO surtidores odoo.modules.loading: loading surtidores/views/templates.xml 
+2023-06-04 00:53:30,122 1 INFO surtidores odoo.addons.base.models.ir_translation: module surtidores: no translation for language es 
+2023-06-04 00:53:30,146 1 INFO surtidores odoo.modules.loading: Module surtidores loaded in 0.36s, 270 queries 
+2023-06-04 00:53:30,179 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.40s, 270 queries (+0 extra) 
+2023-06-04 00:53:30,537 1 INFO surtidores odoo.modules.registry: verifying fields for every extended model 
+2023-06-04 00:53:31,077 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-04 00:53:31,084 1 INFO surtidores odoo.modules.registry: Registry loaded in 2.635s 
+2023-06-04 00:53:31,085 1 INFO surtidores odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-06-04 00:53:31,091 1 INFO surtidores odoo.modules.registry: Registry changed, signaling through the database 
+2023-06-04 00:53:31,094 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:31] "POST /web/dataset/call_button HTTP/1.1" 200 - 3116 1.977 2.340
+2023-06-04 00:53:31,130 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-04 00:53:32,030 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web HTTP/1.1" 200 - 341 0.275 0.629
+2023-06-04 00:53:32,090 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/assets/83-6c39668/web.assets_common.min.css HTTP/1.1" 304 - 2 0.002 0.027
+2023-06-04 00:53:32,145 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/assets/84-412ece4/web.assets_backend.min.css HTTP/1.1" 304 - 2 0.007 0.061
+2023-06-04 00:53:32,180 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/assets/86-412ece4/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.008 0.085
+2023-06-04 00:53:32,182 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/assets/87-f18f3d4/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.012 0.088
+2023-06-04 00:53:32,184 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/assets/85-6c39668/web.assets_common.min.js HTTP/1.1" 304 - 2 0.009 0.078
+2023-06-04 00:53:32,187 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/webclient/load_menus/52fa65103cf8e2affd65afeb01d3a0be867954ae3d3798acd7801b633537fc3d HTTP/1.1" 200 - 1 0.002 0.084
+2023-06-04 00:53:32,309 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 7 0.037 0.109
+2023-06-04 00:53:32,380 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/webclient/qweb/0611084b1a4b5b7d0c3d699e9809657bec93f106d87e04334dfb247171bf7b5b?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.011 0.242
+2023-06-04 00:53:32,619 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.024 0.045
+2023-06-04 00:53:32,716 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.018 0.049
+2023-06-04 00:53:32,902 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.018 0.037
+2023-06-04 00:53:32,904 1 INFO ? werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-06-04 00:53:32,943 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 5 0.026 0.045
+2023-06-04 00:53:32,992 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:32] "POST /web/action/load HTTP/1.1" 200 - 8 0.030 0.076
+2023-06-04 00:53:33,114 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:33] "POST /mail/init_messaging HTTP/1.1" 200 - 69 0.277 0.067
+2023-06-04 00:53:33,162 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:33] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.007 0.015
+2023-06-04 00:53:33,168 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:33] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.012 0.017
+2023-06-04 00:53:33,179 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:33] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.011 0.017
+2023-06-04 00:53:33,223 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:33] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.009 0.022
+2023-06-04 00:53:33,978 1 INFO ? werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:33] "GET /web_tour/static/src/xml/tip.xml?debug=1685840013971 HTTP/1.1" 200 - - - -
+2023-06-04 00:53:36,830 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:36] "POST /web/action/load HTTP/1.1" 200 - 13 0.015 0.017
+2023-06-04 00:53:36,888 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:36] "POST /web/dataset/call_kw/surtidores.cliente/load_views HTTP/1.1" 200 - 29 0.024 0.025
+2023-06-04 00:53:36,915 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.005 0.005
+2023-06-04 00:53:36,933 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:36] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.005
+2023-06-04 00:53:40,149 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:40] "POST /web/action/load HTTP/1.1" 200 - 13 0.016 0.021
+2023-06-04 00:53:40,200 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:40] "POST /web/dataset/call_kw/surtidores.camion/load_views HTTP/1.1" 200 - 15 0.013 0.016
+2023-06-04 00:53:40,219 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:40] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.002 0.005
+2023-06-04 00:53:42,432 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:42] "POST /web/action/load HTTP/1.1" 200 - 16 0.022 0.019
+2023-06-04 00:53:42,474 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:42] "POST /web/dataset/call_kw/surtidores.envase/load_views HTTP/1.1" 200 - 17 0.016 0.016
+2023-06-04 00:53:42,496 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:42] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.004
+2023-06-04 00:53:46,397 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:46] "POST /web/action/load HTTP/1.1" 200 - 13 0.012 0.021
+2023-06-04 00:53:46,433 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:46] "POST /web/dataset/call_kw/surtidores.viaje/load_views HTTP/1.1" 200 - 11 0.009 0.016
+2023-06-04 00:53:46,456 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:46] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.006
+2023-06-04 00:53:48,791 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:48] "POST /longpolling/poll HTTP/1.1" 200 - 15 0.011 50.539
+2023-06-04 00:53:51,116 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:53:51] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.002 0.006
+2023-06-04 00:54:23,119 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:23] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.046 50.193
+2023-06-04 00:54:23,351 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:23] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.004 0.010
+2023-06-04 00:54:54,301 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:54] "POST /web/action/load HTTP/1.1" 200 - 28 0.028 0.030
+2023-06-04 00:54:54,402 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:54] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 52 0.038 0.046
+2023-06-04 00:54:54,471 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.026 0.021
+2023-06-04 00:54:54,493 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:54] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.008
+2023-06-04 00:54:55,635 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:55] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.009 0.014
+2023-06-04 00:54:55,672 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:55] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.037 0.030
+2023-06-04 00:54:57,963 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:57] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.041 0.024
+2023-06-04 00:54:57,985 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:54:57] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.006 0.006
+2023-06-04 00:55:00,168 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:55:00,170 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:55:00,172 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:55:00,948 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:01,307 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:01,320 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:01,338 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:01,342 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:55:01,372 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:55:01,381 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:55:01,404 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-04 00:55:01,406 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-04 00:55:02,169 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:02,573 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:02,587 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:55:02,588 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-04 00:55:02,646 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-04 00:55:02,712 1 INFO surtidores odoo.modules.loading: loading surtidores/security/ir.model.access.csv 
+2023-06-04 00:55:02,769 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-04 00:55:02,853 1 WARNING surtidores odoo.modules.loading: Transient module states were reset 
+2023-06-04 00:55:02,856 1 ERROR surtidores odoo.modules.registry: Failed to load registry 
+2023-06-04 00:55:02,857 1 ERROR surtidores odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 586, in _tag_record
+    record = model._load_records([data], self.mode == 'update')
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4420, in _load_records
+    data['record']._load_records_write(data['values'])
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 2122, in _load_records_write
+    super(View, self)._load_records_write(values)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 4344, in _load_records_write
+    self.write(values)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 565, in write
+    res = super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3899, in write
+    fields[0].determine_inverse(real_recs)
+  File "/usr/lib/python3/dist-packages/odoo/fields.py", line 1279, in determine_inverse
+    getattr(records, self.inverse)()
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 338, in _inverse_arch
+    view.write(data)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 565, in write
+    res = super(View, self).write(self._compute_defaults(vals))
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 3889, in write
+    real_recs._validate_fields(vals, inverse_fields)
+  File "/usr/lib/python3/dist-packages/odoo/models.py", line 1367, in _validate_fields
+    check(self)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 467, in _check_xml
+    raise err.with_traceback(e.__traceback__) from None
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 441, in _check_xml
+    view._validate_view(combined_arch, view.model)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1299, in _validate_view
+    validator(node, name_manager, node_info)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 1408, in _validate_tag_field
+    self._raise_view_error(msg, node)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_ui_view.py", line 746, in _raise_view_error
+    raise err from from_exception
+odoo.exceptions.ValidationError: Ocurrió un error al validar vista cercana
+
+<tree __validate__="1">
+          <field name="origen"/>
+          <field name="destino"/>
+          <field name="cliente"/>
+        </tree>
+El campo "origen" no existe en el modelo "surtidores.envase"
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/service/model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1346, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/web/controllers/main.py", line 1334, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-80>", line 2, in button_immediate_upgrade
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 666, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "/usr/lib/python3/dist-packages/odoo/addons/base/models/ir_module.py", line 603, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "/usr/lib/python3/dist-packages/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 470, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 363, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 222, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "/usr/lib/python3/dist-packages/odoo/modules/loading.py", line 69, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 748, in convert_file
+    convert_xml_import(cr, module, fp, idref, mode, noupdate)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 814, in convert_xml_import
+    obj.parse(doc.getroot())
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 734, in parse
+    self._tag_root(de)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 683, in _tag_root
+    f(rec)
+  File "/usr/lib/python3/dist-packages/odoo/tools/convert.py", line 694, in _tag_root
+    raise ParseError(msg) from None  # Restart with "--log-handler odoo.tools.convert:DEBUG" for complete traceback
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "/usr/lib/python3/dist-packages/odoo/http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+odoo.tools.convert.ParseError: while parsing /mnt/extra-addons/surtidores/views/views.xml:58
+Ocurrió un error al validar vista cercana
+
+<tree __validate__="1">
+          <field name="origen"/>
+          <field name="destino"/>
+          <field name="cliente"/>
+        </tree>
+El campo "origen" no existe en el modelo "surtidores.envase"
+
+View error context:
+{'file': '/mnt/extra-addons/surtidores/views/views.xml',
+ 'line': 3,
+ 'name': 'surtidores.envase list',
+ 'view': ir.ui.view(901,),
+ 'view.model': 'surtidores.envase',
+ 'view.parent': ir.ui.view(),
+ 'xmlid': 'surtidores.envases_list'}
+
+2023-06-04 00:55:02,869 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:55:03,025 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.15s, 0 queries (+0 extra) 
+2023-06-04 00:55:03,047 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:03,054 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:55:03,090 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.04s, 0 queries (+0 extra) 
+2023-06-04 00:55:03,268 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-04 00:55:03,273 1 INFO surtidores odoo.modules.registry: Registry loaded in 0.411s 
+2023-06-04 00:55:03,275 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:03] "POST /web/dataset/call_button HTTP/1.1" 200 - 2266 1.235 1.881
+2023-06-04 00:55:13,151 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:13] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.007 50.015
+2023-06-04 00:55:13,162 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-04 00:55:14,383 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:14] "POST /longpolling/im_status HTTP/1.1" 200 - 17 0.023 0.025
+2023-06-04 00:55:36,982 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:55:36,985 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:55:36,987 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['surtidores'] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:55:37,877 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:38,371 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:38,384 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:38,411 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:38,418 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user joseslink2@gmail.com #2 via 172.22.0.1 
+2023-06-04 00:55:38,453 1 INFO surtidores odoo.modules.loading: loading 1 modules... 
+2023-06-04 00:55:38,463 1 INFO surtidores odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-06-04 00:55:38,488 1 INFO surtidores odoo.modules.loading: updating modules list 
+2023-06-04 00:55:38,491 1 INFO surtidores odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 172.22.0.1 
+2023-06-04 00:55:39,246 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:39,632 1 WARNING surtidores odoo.modules.module: Missing `license` key in manifest for 'surtidores', defaulting to LGPL-3 
+2023-06-04 00:55:39,644 1 INFO surtidores odoo.modules.loading: loading 46 modules... 
+2023-06-04 00:55:39,645 1 INFO surtidores odoo.modules.loading: Loading module surtidores (2/46) 
+2023-06-04 00:55:39,689 1 INFO surtidores odoo.modules.registry: module surtidores: creating or updating database tables 
+2023-06-04 00:55:39,756 1 INFO surtidores odoo.modules.loading: loading surtidores/security/ir.model.access.csv 
+2023-06-04 00:55:39,887 1 INFO surtidores odoo.modules.loading: loading surtidores/views/views.xml 
+2023-06-04 00:55:40,046 1 INFO surtidores odoo.modules.loading: loading surtidores/views/templates.xml 
+2023-06-04 00:55:40,068 1 INFO surtidores odoo.addons.base.models.ir_translation: module surtidores: no translation for language es 
+2023-06-04 00:55:40,089 1 INFO surtidores odoo.modules.loading: Module surtidores loaded in 0.44s, 267 queries 
+2023-06-04 00:55:40,134 1 INFO surtidores odoo.modules.loading: 46 modules loaded in 0.49s, 267 queries (+0 extra) 
+2023-06-04 00:55:40,494 1 INFO surtidores odoo.modules.registry: verifying fields for every extended model 
+2023-06-04 00:55:40,950 1 INFO surtidores odoo.modules.loading: Modules loaded. 
+2023-06-04 00:55:40,958 1 INFO surtidores odoo.modules.registry: Registry loaded in 2.513s 
+2023-06-04 00:55:40,959 1 INFO surtidores odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-06-04 00:55:40,966 1 INFO surtidores odoo.modules.registry: Registry changed, signaling through the database 
+2023-06-04 00:55:40,969 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:40] "POST /web/dataset/call_button HTTP/1.1" 200 - 3110 2.010 1.987
+2023-06-04 00:55:41,007 1 INFO surtidores odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-06-04 00:55:41,951 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:41] "GET /web HTTP/1.1" 200 - 341 0.275 0.672
+2023-06-04 00:55:42,011 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/assets/83-6c39668/web.assets_common.min.css HTTP/1.1" 200 - 2 0.002 0.022
+2023-06-04 00:55:42,086 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/assets/84-412ece4/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.008 0.068
+2023-06-04 00:55:42,146 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/assets/87-f18f3d4/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.005 0.091
+2023-06-04 00:55:42,152 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/webclient/load_menus/52fa65103cf8e2affd65afeb01d3a0be867954ae3d3798acd7801b633537fc3d HTTP/1.1" 200 - 1 0.005 0.085
+2023-06-04 00:55:42,156 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/assets/86-412ece4/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.009 0.088
+2023-06-04 00:55:42,162 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/assets/85-6c39668/web.assets_common.min.js HTTP/1.1" 304 - 2 0.009 0.099
+2023-06-04 00:55:42,271 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 7 0.044 0.107
+2023-06-04 00:55:42,366 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/webclient/qweb/0611084b1a4b5b7d0c3d699e9809657bec93f106d87e04334dfb247171bf7b5b?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.020 0.273
+2023-06-04 00:55:42,854 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.028 0.057
+2023-06-04 00:55:42,961 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:42] "GET /web/webclient/translations/8a08f88574f07da4b000d4c8c821813e0d95b633?lang=es_ES HTTP/1.1" 200 - 5 0.021 0.059
+2023-06-04 00:55:43,112 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:43] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.013 0.016
+2023-06-04 00:55:43,129 1 INFO ? werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:43] "GET /web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 304 - - - -
+2023-06-04 00:55:43,166 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:43] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 5 0.033 0.040
+2023-06-04 00:55:43,193 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:43] "POST /web/action/load HTTP/1.1" 200 - 8 0.027 0.059
+2023-06-04 00:55:43,312 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:43] "POST /mail/init_messaging HTTP/1.1" 200 - 69 0.236 0.059
+2023-06-04 00:55:43,362 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:43] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.010 0.016
+2023-06-04 00:55:43,364 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:43] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.007 0.018
+2023-06-04 00:55:43,380 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:43] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.010 0.016
+2023-06-04 00:55:43,426 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:43] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.009 0.023
+2023-06-04 00:55:44,893 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:44] "POST /web/action/load HTTP/1.1" 200 - 13 0.010 0.022
+2023-06-04 00:55:44,950 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:44] "POST /web/dataset/call_kw/surtidores.cliente/load_views HTTP/1.1" 200 - 29 0.021 0.024
+2023-06-04 00:55:44,975 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:44] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.003 0.006
+2023-06-04 00:55:44,995 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:44] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.002 0.006
+2023-06-04 00:55:47,178 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:47] "POST /web/action/load HTTP/1.1" 200 - 13 0.016 0.020
+2023-06-04 00:55:47,233 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:47] "POST /web/dataset/call_kw/surtidores.viaje/load_views HTTP/1.1" 200 - 19 0.014 0.019
+2023-06-04 00:55:47,255 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:55:47] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.003 0.006
+2023-06-04 00:56:03,599 1 INFO surtidores werkzeug: 172.22.0.1 - - [04/Jun/2023 00:56:03] "POST /longpolling/poll HTTP/1.1" 200 - 15 0.012 50.428

@@ -9,7 +9,6 @@ import re
 
 _logger = logging.getLogger(__name__)
 
-
 # Modelo cliente
 class cliente(models.Model):
     _name = 'surtidores.cliente'
@@ -37,7 +36,6 @@ class cliente(models.Model):
     def _compute_fecha_registro(self):
         for cliente in self:
             cliente.fecha_registro = datetime.now().strftime("%Y-%m-%d")
-
 
 # Modelo Camion
 class camion(models.Model):
@@ -75,7 +73,7 @@ class producto(models.Model):
         ('pentano', 'Pentano'),
         ('butano', 'Butano'), ], string='Tipo de Combustible', required=True,
         default='gasolina')
-
+    precio = fields.Float(string="Precio(€) por litro", help="Valor de un litro de combustrible en euros")
 
 # Modelo Envase
 class envase(models.Model):
@@ -95,7 +93,6 @@ class envase(models.Model):
         ('55', '55'),
         ('60', '60'), ], string='Capacidad', required=True,
         default='20')
-
 
 # Modelo Viaje
 class viaje(models.Model):
