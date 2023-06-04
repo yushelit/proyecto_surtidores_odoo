@@ -87,8 +87,6 @@ class envase(models.Model):
     tipo_combustible = fields.Many2one("surtidores.producto",
                                        ondelete="set null", help="Combustible que llevara el envase")
     capacidad = fields.Selection([
-        ('20', '20'),
-        ('25', '25'),
         ('30', '30'),
         ('35', '35'),
         ('40', '40'),
@@ -96,7 +94,7 @@ class envase(models.Model):
         ('50', '50'),
         ('55', '55'),
         ('60', '60'), ], string='Capacidad', required=True,
-        default='20')
+        default='45')
 
 
 # Modelo Viaje

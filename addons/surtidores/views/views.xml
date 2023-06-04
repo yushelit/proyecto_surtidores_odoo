@@ -348,8 +348,103 @@
       </field>
     </record>
 
-    <!-- actions opening views on models -->
+<!--VISTAS DE BÚSQUEDA-->
+<!--    Vista de busqueda del modelo cliente-->
+    <record model="ir.ui.view" id="surtidores.cliente_search">
+      <field name="name">surtidores.camion search</field>
+      <field name="model">surtidores.cliente</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name"/>
+          <field name="dni"/>
+          <field name="apellidos"/>
+          <field name="edad"/>
+          <field name="ciudad"/>
+          <field name="direccion"/>
+          <field name="fecha_registro"/>
+          <filter string="Registrados este año" name="registrados_este_ano" domain="[('fecha_registro', '>=', (context_today().strftime('%%d/%%m/%%Y')))]"/>
+<!--          En la siguiente linea no se porque no funciona cuando pongo '<' asi que uso &lt; en su lugar-->
+          <filter string="Registrados hace más de 10 años" name="registrados_mas_10_anos" domain="[('fecha_registro', '&lt;', (context_today() - relativedelta(years=10)).strftime('%%d/%%m/%%Y'))]"/>
+        </search>
+      </field>
+    </record>
 
+<!--    Vista de busqueda del modelo camion-->
+    <record model="ir.ui.view" id="surtidores.camion_search">
+      <field name="name">surtidores.camion search</field>
+      <field name="model">surtidores.camion</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name"/>
+          <field name="altura"/>
+          <field name="modelo"/>
+          <filter string="Filtrar por Modelo Mercedes" name="filter_modelo" domain="[('modelo', 'ilike', 'mercedes')]"/>
+          <filter string="Filtrar por Modelo Man" name="filter_modelo" domain="[('modelo', 'ilike', 'man')]"/>
+          <filter string="Filtrar por Modelo Volvo" name="filter_modelo" domain="[('modelo', 'ilike', 'volvo')]"/>
+        </search>
+      </field>
+    </record>
+
+<!--    Vista search del modelo producto-->
+    <record model="ir.ui.view" id="surtidores.producto_search_view">
+      <field name="name">surtidores.producto search</field>
+      <field name="model">surtidores.producto</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name" string="Tipo de Combustible"/>
+          <field name="precio" string="Precio por litro"/>
+          <filter string="Filtrado por menos de 2€" name="filtro_precio" domain="[('precio', '&lt;=', 2)]"/>
+        </search>
+      </field>
+    </record>
+
+<!--    Vista search del modelo envase-->
+    <record model="ir.ui.view" id="surtidores.envase_search_view">
+      <field name="name">surtidores.envase search</field>
+      <field name="model">surtidores.envase</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name" string="Identificador"/>
+          <field name="tipo_combustible" string="Tipo de Combustible"/>
+          <field name="capacidad" string="Capacidad"/>
+        </search>
+      </field>
+    </record>
+
+<!--    Vista search del modelo Viaje-->
+    <record model="ir.ui.view" id="surtidores.viaje_search_view">
+      <field name="name">surtidores.viaje search</field>
+      <field name="model">surtidores.viaje</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="origen" string="Origen"/>
+          <field name="destino" string="Destino"/>
+          <field name="cliente" string="Cliente"/>
+          <field name="camion" string="Camión"/>
+          <field name="envases" string="Envases"/>
+          <field name="fecha" string="Fecha del Viaje"/>
+          <filter string="Viajes de este año" name="viajes_este_ano" domain="[('fecha', '&gt;=', (context_today().strftime('%%Y-01-01')))]"/>
+          <filter string="Viajes realizados" name="viajes_realizados" domain="[('fecha', '&lt;', (context_today().strftime('%%Y-%m-%d')))]"/>
+        </search>
+      </field>
+    </record>
+
+    <!--VISTA CALENDAR DEL MODELO VIAJE-->
+    <record model="ir.ui.view" id="surtidores_viaje_calendar_view">
+      <field name="name">surtidores.viaje calendar</field>
+      <field name="model">surtidores.viaje</field>
+      <field name="arch" type="xml">
+        <calendar string="Viajes" date_start="fecha">
+          <field name="origen"/>
+          <field name="destino"/>
+          <field name="cliente"/>
+          <field name="camion"/>
+          <field name="envases"/>
+        </calendar>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
     <record model="ir.actions.act_window" id="surtidores.action_clientes_window">
       <field name="name">surtidores.cliente window</field>
       <field name="res_model">surtidores.cliente</field>
@@ -377,7 +472,7 @@
     <record model="ir.actions.act_window" id="surtidores.action_viaje_window">
       <field name="name">surtidores.viaje window</field>
       <field name="res_model">surtidores.viaje</field>
-      <field name="view_mode">tree,form,kanban</field>
+      <field name="view_mode">tree,form,kanban,calendar</field>
     </record>
 
 
