@@ -44,16 +44,16 @@ class camion(models.Model):
     _name = 'surtidores.camion'
     _description = 'surtidores.camion'
 
-    name = fields.Char(string="Nombre", help="Nombre")
-    matricula = fields.Char(string="Matricula", required=True, help="Matricula")
+    name = fields.Char(string="Matricula", required=True, help="Matricula")
     modelo = fields.Char(string="Modelo", help="Modelo")
+    altura = fields.Float(string="altura en metros", help="altura del trailer en metros")
     foto = fields.Image(string="Foto", help="Añadir foto")
 
     @api.constrains('matricula')
-    def _check_dni(self):
+    def _check_mat(self):
         regex = re.compile('^\d{4}[A-Z]{3}\Z', re.I)
-        for cliente in self:
-            if regex.match(cliente.dni):
+        for camion in self:
+            if regex.match(camion.matricula):
                 _logger.info('Matricula correta')
             else:
                 raise ValidationError('Formato de Matricula incorrecta')
@@ -64,7 +64,7 @@ class producto(models.Model):
     _name = 'surtidores.producto'
     _description = 'surtidores.producto'
 
-    tipo_combustible = fields.Selection([
+    name = fields.Selection([
         ('gasolina', 'Gasolina'),
         ('diesel', 'Diesel'),
         ('metano', 'Metano'),
@@ -75,6 +75,7 @@ class producto(models.Model):
         ('pentano', 'Pentano'),
         ('butano', 'Butano'), ], string='Tipo de Combustible', required=True,
         default='gasolina')
+    precio = fields.Float(string="Precio(€) por litro", help="Valor de un litro de combustrible en euros")
 
 
 # Modelo Envase
@@ -82,11 +83,10 @@ class envase(models.Model):
     _name = 'surtidores.envase'
     _description = 'surtidores.envase'
 
-    identificador = fields.Char(string="id", help="id")
-    tipo_combustible = fields.Many2one("surtidores.producto", ondelete="set null", help="Combustible que llevara el envase")
+    name = fields.Char(string="identificador", help="id")
+    tipo_combustible = fields.Many2one("surtidores.producto",
+                                       ondelete="set null", help="Combustible que llevara el envase")
     capacidad = fields.Selection([
-        ('20', '20'),
-        ('25', '25'),
         ('30', '30'),
         ('35', '35'),
         ('40', '40'),
@@ -94,7 +94,7 @@ class envase(models.Model):
         ('50', '50'),
         ('55', '55'),
         ('60', '60'), ], string='Capacidad', required=True,
-        default='20')
+        default='45')
 
 
 # Modelo Viaje
@@ -107,3 +107,4 @@ class viaje(models.Model):
     cliente = fields.Many2one("surtidores.cliente")
     camion = fields.Many2one("surtidores.camion")
     envases = fields.Many2many("surtidores.envase")
+    fecha = fields.Date(string='Fecha del Viaje')

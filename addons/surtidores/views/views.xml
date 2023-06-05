@@ -18,19 +18,56 @@
     </record>
 
 <!--    vista tree del modelo camión-->
-    <record model="ir.ui.view" id="surtidores.clientes_list">
-      <field name="name">surtidores.cliente list</field>
-      <field name="model">surtidores.cliente</field>
+    <record model="ir.ui.view" id="surtidores.camiones_list">
+      <field name="name">surtidores.camion list</field>
+      <field name="model">surtidores.camion</field>
       <field name="arch" type="xml">
         <tree>
-          <field name="dni"/>
           <field name="name"/>
-          <field name="apellidos"/>
-          <field name="fecha_registro"/>
+          <field name="modelo"/>
         </tree>
       </field>
     </record>
 
+    <!--vista tree del modelo producto-->
+    <record model="ir.ui.view" id="surtidores.productos_list">
+      <field name="name">surtidores.producto list</field>
+      <field name="model">surtidores.producto</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="precio"/>
+        </tree>
+      </field>
+    </record>
+
+    <!--vista tree del modelo envase-->
+    <record model="ir.ui.view" id="surtidores.envases_list">
+      <field name="name">surtidores.envase list</field>
+      <field name="model">surtidores.envase</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="tipo_combustible"/>
+          <field name="capacidad"/>
+        </tree>
+      </field>
+    </record>
+
+    <!--vista tree del modelo viaje-->
+    <record model="ir.ui.view" id="surtidores.viajes_list">
+      <field name="name">surtidores.viaje list</field>
+      <field name="model">surtidores.viaje</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="cliente"/>
+          <field name="origen"/>
+          <field name="destino"/>
+        </tree>
+      </field>
+    </record>
+
+<!--    VISTAS FORM-->
 <!--    vista form del modelo cliente-->
     <record model="ir.ui.view" id="surtidores.cliente_form">
       <field name="name">surtidores.cliente form</field>
@@ -63,6 +100,82 @@
       </field>
     </record>
 
+<!--    Vista form del modelo camion-->
+    <record model="ir.ui.view" id="surtidores.camion_form">
+      <field name="name">surtidores.camion form</field>
+      <field name="model">surtidores.camion</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <h1>
+                <field name="name"/><separator/>
+              </h1>
+              <field name="altura"/>
+              <field name="modelo"/>
+              <field name="foto" widget="image" options="{'size': (200, 200)}" class="o_image_preview"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+<!--    vista form del modelo producto-->
+    <record model="ir.ui.view" id="surtidores.producto_form">
+      <field name="name">surtidores.producto form</field>
+      <field name="model">surtidores.producto</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="name"/><separator/>
+              <field name="precio"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+<!--    Vista form del modelo envase-->
+    <record model="ir.ui.view" id="surtidores.envase_form">
+      <field name="name">surtidores.envase form</field>
+      <field name="model">surtidores.envase</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="tipo_combustible"/><separator/>
+              <field name="capacidad"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+<!--    vista form del modelo viaje-->
+    <record model="ir.ui.view" id="surtidores.viaje_form">
+      <field name="name">surtidores.viaje form</field>
+      <field name="model">surtidores.viaje</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <group>
+              <h1><field name="cliente"/></h1>
+              <field name="camion"/>
+              <group>
+                <field name="origen"/>
+                <field name="destino"/>
+              </group>
+              <field name="fecha"/><separator/>
+              <field name="envases"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <!--VISTAS KANBAN-->
     <!--vista kanban del modelo cliente-->
     <record model="ir.ui.view" id="surtidores.cliente_kanban">
     <field name="name">surtidores.cliente kanban</field>
@@ -75,25 +188,30 @@
         <templates>
           <t t-name="kanban-box">
             <div class="oe_kanban_card oe_kanban_global_click">
-              <div class="o_kanban_image mr-1">
+              <div class="o_kanban_image mr-1" style="float: left; min-width: 30mm; min-height: 30px;" >
                 <field name="foto" widget="image"/>
               </div>
               <div class="oe_kanban_details">
                 <div class="o_kanban_record_top mb-0">
                   <div class="o_kanban_record_headings">
                     <strong class="o_kanban_record_title">
-                      <field name="name"/><p></p>
+                      <field name="name"/><![CDATA[&nbsp;]]>
                       <field name="apellidos"/>
                     </strong>
                   </div>
                 </div>
-                <div name="product_lst_price" class="mt-1">
-                  Fecha de Registro: <field name="fecha_registro"/>
-                  <p/>
-                  Edad: <field name="edad"/>
-                  <p/>
-                  Localidad: <field name="ciudad"/>
-                </div>
+                <p/>
+                <ul>
+                  <li>
+                    Fecha de Registro: <field name="fecha_registro"/>
+                  </li>
+                  <li>
+                    Edad: <field name="edad"/>
+                  </li>
+                  <li>
+                    Localidad: <field name="ciudad"/>
+                  </li>
+                </ul>
               </div>
             </div>
           </t>
@@ -102,9 +220,231 @@
     </field>
   </record>
 
+    <!--vista kanban del modelo camion-->
+    <record model="ir.ui.view" id="surtidores.camion_kanban">
+      <field name="name">surtidores.camion kanban</field>
+      <field name="model">surtidores.camion</field>
+      <field name="arch" type="xml">
+        <kanban>
+          <field name="name"/>
+          <field name="modelo"/>
+          <field name="altura"/>
+          <templates>
+            <t t-name="kanban-box">
+              <div class="oe_kanban_card oe_kanban_global_click">
+                <div class="o_kanban_image mr-1">
+                  <field name="foto" widget="image"/>
+                </div>
+                <div class="oe_kanban_details">
+                  <div class="o_kanban_record_top mb-0">
+                    <div class="o_kanban_record_headings">
+                      <strong class="o_kanban_record_title">
+                        <field name="name"/>
+                        <p/>
+                        <field name="modelo"/>
+                      </strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </t>
+          </templates>
+        </kanban>
+      </field>
+    </record>
+
+<!--    Vista kanban del modelo producto-->
+      <record model="ir.ui.view" id="surtidores.producto_kanban">
+      <field name="name">surtidores.producto kanban</field>
+      <field name="model">surtidores.producto</field>
+      <field name="arch" type="xml">
+        <kanban>
+          <field name="name"/>
+          <field name="precio"/>
+          <templates>
+            <t t-name="kanban-box">
+              <div class="oe_kanban_card oe_kanban_global_click">
+                <div class="oe_kanban_details">
+                  <div class="o_kanban_record_top mb-0">
+                    <div class="o_kanban_record_headings">
+                      <strong class="o_kanban_record_title">
+                        <field name="name"/><p></p>
+                        <field name="precio"/>
+                      </strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </t>
+          </templates>
+        </kanban>
+      </field>
+    </record>
+
+<!--    Vista kanban del modelo envase-->
+    <record model="ir.ui.view" id="surtidores.envase_kanban">
+      <field name="name">surtidores.envase kanban</field>
+      <field name="model">surtidores.envase</field>
+      <field name="arch" type="xml">
+        <kanban>
+          <field name="name"/>
+          <field name="tipo_combustible"/>
+          <field name="capacidad"/>
+          <templates>
+            <t t-name="kanban-box">
+              <div class="oe_kanban_card oe_kanban_global_click">
+                <div class="oe_kanban_details">
+                  <div class="o_kanban_record_top mb-0">
+                    <div class="o_kanban_record_headings">
+                      <strong class="o_kanban_record_title">
+                        <field name="name"/>
+                        <p/>
+                        <field name="tipo_combustible"/>
+                        <p/>
+                        <field name="capacidad"/>
+                      </strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </t>
+          </templates>
+        </kanban>
+      </field>
+    </record>
+
+<!--    Vista kanban del modelo viaje-->
+    <record model="ir.ui.view" id="surtidores.viaje_kanban">
+      <field name="name">surtidores.viaje kanban</field>
+      <field name="model">surtidores.viaje</field>
+      <field name="arch" type="xml">
+        <kanban>
+          <field name="cliente"/>
+          <field name="camion"/>
+          <templates>
+            <t t-name="kanban-box">
+              <div class="oe_kanban_card oe_kanban_global_click">
+                <div class="oe_kanban_details">
+                  <div class="o_kanban_record_top">
+                    <div class="o_kanban_record_headings">
+                      <strong class="o_kanban_record_title">
+                        <field name="origen"/> - <field name="destino"/>
+                      </strong>
+                    </div>
+                  </div>
+                  <ul>
+                    <li>
+                      Cliente: <field name="cliente"/>
+                    </li>
+                    <li>
+                      Fecha: <field name="fecha"/>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </t>
+          </templates>
+        </kanban>
+      </field>
+    </record>
+
+<!--VISTAS DE BÚSQUEDA-->
+<!--    Vista de busqueda del modelo cliente-->
+    <record model="ir.ui.view" id="surtidores.cliente_search">
+      <field name="name">surtidores.camion search</field>
+      <field name="model">surtidores.cliente</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name"/>
+          <field name="dni"/>
+          <field name="apellidos"/>
+          <field name="edad"/>
+          <field name="ciudad"/>
+          <field name="direccion"/>
+          <field name="fecha_registro"/>
+          <filter string="Registrados este año" name="registrados_este_ano" domain="[('fecha_registro', '>=', (context_today().strftime('%%d/%%m/%%Y')))]"/>
+<!--          En la siguiente linea no se porque no funciona cuando pongo '<' asi que uso &lt; en su lugar-->
+          <filter string="Registrados hace más de 10 años" name="registrados_mas_10_anos" domain="[('fecha_registro', '&lt;', (context_today() - relativedelta(years=10)).strftime('%%d/%%m/%%Y'))]"/>
+        </search>
+      </field>
+    </record>
+
+<!--    Vista de busqueda del modelo camion-->
+    <record model="ir.ui.view" id="surtidores.camion_search">
+      <field name="name">surtidores.camion search</field>
+      <field name="model">surtidores.camion</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name"/>
+          <field name="altura"/>
+          <field name="modelo"/>
+          <filter string="Filtrar por Modelo Mercedes" name="filter_modelo" domain="[('modelo', 'ilike', 'mercedes')]"/>
+          <filter string="Filtrar por Modelo Man" name="filter_modelo" domain="[('modelo', 'ilike', 'man')]"/>
+          <filter string="Filtrar por Modelo Volvo" name="filter_modelo" domain="[('modelo', 'ilike', 'volvo')]"/>
+        </search>
+      </field>
+    </record>
+
+<!--    Vista search del modelo producto-->
+    <record model="ir.ui.view" id="surtidores.producto_search_view">
+      <field name="name">surtidores.producto search</field>
+      <field name="model">surtidores.producto</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name" string="Tipo de Combustible"/>
+          <field name="precio" string="Precio por litro"/>
+          <filter string="Filtrado por menos de 2€" name="filtro_precio" domain="[('precio', '&lt;=', 2)]"/>
+        </search>
+      </field>
+    </record>
+
+<!--    Vista search del modelo envase-->
+    <record model="ir.ui.view" id="surtidores.envase_search_view">
+      <field name="name">surtidores.envase search</field>
+      <field name="model">surtidores.envase</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="name" string="Identificador"/>
+          <field name="tipo_combustible" string="Tipo de Combustible"/>
+          <field name="capacidad" string="Capacidad"/>
+        </search>
+      </field>
+    </record>
+
+<!--    Vista search del modelo Viaje-->
+    <record model="ir.ui.view" id="surtidores.viaje_search_view">
+      <field name="name">surtidores.viaje search</field>
+      <field name="model">surtidores.viaje</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="origen" string="Origen"/>
+          <field name="destino" string="Destino"/>
+          <field name="cliente" string="Cliente"/>
+          <field name="camion" string="Camión"/>
+          <field name="envases" string="Envases"/>
+          <field name="fecha" string="Fecha del Viaje"/>
+          <filter string="Viajes de este año" name="viajes_este_ano" domain="[('fecha', '&gt;=', (context_today().strftime('%%Y-01-01')))]"/>
+          <filter string="Viajes realizados" name="viajes_realizados" domain="[('fecha', '&lt;', (context_today().strftime('%%Y-%m-%d')))]"/>
+        </search>
+      </field>
+    </record>
+
+    <!--VISTA CALENDAR DEL MODELO VIAJE-->
+    <record model="ir.ui.view" id="surtidores_viaje_calendar_view">
+      <field name="name">surtidores.viaje calendar</field>
+      <field name="model">surtidores.viaje</field>
+      <field name="arch" type="xml">
+        <calendar string="Viajes" date_start="fecha">
+          <field name="origen"/>
+          <field name="destino"/>
+          <field name="cliente"/>
+          <field name="camion"/>
+          <field name="envases"/>
+        </calendar>
+      </field>
+    </record>
 
     <!-- actions opening views on models -->
-
     <record model="ir.actions.act_window" id="surtidores.action_clientes_window">
       <field name="name">surtidores.cliente window</field>
       <field name="res_model">surtidores.cliente</field>
@@ -114,25 +454,25 @@
     <record model="ir.actions.act_window" id="surtidores.action_camion_window">
       <field name="name">surtidores.camion window</field>
       <field name="res_model">surtidores.camion</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,kanban</field>
     </record>
 
     <record model="ir.actions.act_window" id="surtidores.action_producto_window">
       <field name="name">surtidores.producto window</field>
       <field name="res_model">surtidores.producto</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,kanban</field>
     </record>
 
     <record model="ir.actions.act_window" id="surtidores.action_envase_window">
       <field name="name">surtidores.envase window</field>
       <field name="res_model">surtidores.envase</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,kanban</field>
     </record>
 
     <record model="ir.actions.act_window" id="surtidores.action_viaje_window">
       <field name="name">surtidores.viaje window</field>
       <field name="res_model">surtidores.viaje</field>
-      <field name="view_mode">tree,form</field>
+      <field name="view_mode">tree,form,kanban,calendar</field>
     </record>
 
 
