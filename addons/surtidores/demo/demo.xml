@@ -1,30 +1,10 @@
 <odoo>
     <data>
-<!--
-          <record id="object0" model="surtidores.surtidores">
-            <field name="name">Object 0</field>
-            <field name="value">0</field>
+          <record id="cliente1" model="surtidores.cliente">
+            <field name="name">Maria</field>
+            <field name="dni">11111111f</field>
+            <field name="apellidos">Díaz Galdós</field>
+            <field name="ciudad">Mestanza</field>
           </record>
-
-          <record id="object1" model="surtidores.surtidores">
-            <field name="name">Object 1</field>
-            <field name="value">10</field>
-          </record>
-
-          <record id="object2" model="surtidores.surtidores">
-            <field name="name">Object 2</field>
-            <field name="value">20</field>
-          </record>
-
-          <record id="object3" model="surtidores.surtidores">
-            <field name="name">Object 3</field>
-            <field name="value">30</field>
-          </record>
-
-          <record id="object4" model="surtidores.surtidores">
-            <field name="name">Object 4</field>
-            <field name="value">40</field>
-          </record>
--->
     </data>
 </odoo>
