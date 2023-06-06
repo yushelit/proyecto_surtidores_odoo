@@ -33,10 +33,14 @@ class cliente(models.Model):
             else:
                 raise ValidationError('Formato DNI incorrecto')
 
+        _sql_constraints = [('dni_uniq', 'unique(dni)', 'DNI no se puede repetir')]
+
     @api.depends('name')
     def _compute_fecha_registro(self):
         for cliente in self:
             cliente.fecha_registro = datetime.now().strftime("%Y-%m-%d")
+
+
 
 
 # Modelo Camion
@@ -57,6 +61,7 @@ class camion(models.Model):
                 _logger.info('Matricula correta')
             else:
                 raise ValidationError('Formato de Matricula incorrecta')
+        _sql_constraints = [('mat_uniq', 'unique(name)', 'la matrícula no se puede repetir')]
 
 
 # Modelo Productos
@@ -93,8 +98,7 @@ class envase(models.Model):
         ('45', '45'),
         ('50', '50'),
         ('55', '55'),
-        ('60', '60'), ], string='Capacidad', required=True,
-        default='45')
+        ('60', '60'), ], string='Capacidad', required=True, default='45')
 
 
 # Modelo Viaje

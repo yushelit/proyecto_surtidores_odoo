@@ -1,10 +1,4 @@
 <odoo>
     <data>
-          <record id="cliente1" model="surtidores.cliente">
-            <field name="name">Maria</field>
-            <field name="dni">11111111f</field>
-            <field name="apellidos">Díaz Galdós</field>
-            <field name="ciudad">Mestanza</field>
-          </record>
     </data>
 </odoo>
