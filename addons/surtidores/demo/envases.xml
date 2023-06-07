@@ -1,0 +1,44 @@
+<odoo>
+    <data>
+        <record id='envaseTrinitroTolueno' model='surtidores.envase'>
+            <field name='name'>TrinitroTolueno</field>
+            <field name='tipo_combustible' ref='surtidores.producto0'/>
+        </record>
+        <record id='envaseEtanol' model='surtidores.envase'>
+            <field name='name'>Etanol</field>
+            <field name='tipo_combustible' ref='surtidores.producto1'/>
+        </record>
+        <record id='envaseMetano' model='surtidores.envase'>
+            <field name='name'>Metano</field>
+            <field name='tipo_combustible' ref='surtidores.producto2'/>
+        </record>
+        <record id='envaseTrinitroTolueno' model='surtidores.envase'>
+            <field name='name'>TrinitroTolueno</field>
+            <field name='tipo_combustible' ref='surtidores.producto3'/>
+        </record>
+        <record id='envasePentano' model='surtidores.envase'>
+            <field name='name'>Pentano</field>
+            <field name='tipo_combustible' ref='surtidores.producto4'/>
+        </record>
+        <record id='envaseQueroseno' model='surtidores.envase'>
+            <field name='name'>Queroseno</field>
+            <field name='tipo_combustible' ref='surtidores.producto5'/>
+        </record>
+        <record id='envaseQueroseno' model='surtidores.envase'>
+            <field name='name'>Queroseno</field>
+            <field name='tipo_combustible' ref='surtidores.producto6'/>
+        </record>
+        <record id='envaseTrinitroTolueno' model='surtidores.envase'>
+            <field name='name'>TrinitroTolueno</field>
+            <field name='tipo_combustible' ref='surtidores.producto7'/>
+        </record>
+        <record id='envaseTrinitroTolueno' model='surtidores.envase'>
+            <field name='name'>TrinitroTolueno</field>
+            <field name='tipo_combustible' ref='surtidores.producto8'/>
+        </record>
+        <record id='envaseTrinitroTolueno' model='surtidores.envase'>
+            <field name='name'>TrinitroTolueno</field>
+            <field name='tipo_combustible' ref='surtidores.producto9'/>
+        </record>
+    </data>
+</odoo>

@@ -1,3 +1,4 @@
+import csv
 from os import remove
 from os import path
 
@@ -19,37 +20,37 @@ def write_clientes(line, name_file, identificador):
     write_text('</record>', name_file)
 
 
-# def write_camion(line, name_file, identificador):
-#     write_text(f'<record id=\'camion{identificador}\' model=\'surtidores.camion\'>', name_file)
-#     write_text(f'<field name=\'name\'>{line[0]}</field>', name_file)
-#     write_text(f'<field name=\'modelo\'>{line[1]}</field>', name_file)
-#     write_text(f'<field name=\'altura\'>{line[2].strip()}</field>', name_file)
-#     write_text('</record>', name_file)
-#
-#
-# def write_productos(line, name_file, identificador):
-#     write_text(f'<record id=\'producto{identificador}\' model=\'surtidores.producto\'>', name_file)
-#     write_text(f'<field name=\'name\'>{line[0]}</field>', name_file)
-#     write_text(f'<field name=\'precio\'>{line[1].strip()}</field>', name_file)
-#     write_text('</record>', name_file)
-#
-#
-# def write_envases(line, name_file, identificador):
-#     write_text(f'<record id=\'envase{line[0]}\' model=\'surtidores.envase\'>', name_file)
-#     write_text(f'<field name=\'name\'>{line[0]}</field>', name_file)
-#     write_text(f'<field name=\'tipo_combustible\' ref=\'surtidores.producto{identificador}\'/>', name_file)
-#     write_text('</record>', name_file)
-#
-#
-# def write_viajes(line, name_file, identificador):
-#     write_text(f'<record id=\'viaje{identificador}\' model=\'surtidores.viaje\'>', name_file)
-#     write_text(f'<field name=\'origen\'>{line[0]}</field>', name_file)
-#     write_text(f'<field name=\'destino\'>{line[1]}</field>', name_file)
-#     write_text(f'<field name=\'camion\' ref=\'surtidores.camion{identificador}\'/>', name_file)
-#     write_text(f'<field name=\'cliente\' ref=\'surtidores.cliente{identificador}\'/>', name_file)
-#     write_text(f'<field name=\'envases\' ref=\'surtidores.envase{identificador}\'/>', name_file)
-#     write_text(f'<field name=\'fecha\'>{line[2].strip()}</field>', name_file)
-#     write_text('</record>', name_file)
+def write_camion(line, name_file, identificador):
+    write_text(f'<record id=\'camion{identificador}\' model=\'surtidores.camion\'>', name_file)
+    write_text(f'<field name=\'name\'>{line[0]}</field>', name_file)
+    write_text(f'<field name=\'modelo\'>{line[1]}</field>', name_file)
+    write_text(f'<field name=\'altura\'>{line[2].strip()}</field>', name_file)
+    write_text('</record>', name_file)
+
+
+def write_productos(line, name_file, identificador):
+    write_text(f'<record id=\'producto{identificador}\' model=\'surtidores.producto\'>', name_file)
+    write_text(f'<field name=\'name\'>{line[0]}</field>', name_file)
+    write_text(f'<field name=\'precio\'>{line[1].strip()}</field>', name_file)
+    write_text('</record>', name_file)
+
+
+def write_envases(line, name_file, identificador):
+    write_text(f'<record id=\'envase{line[0]}\' model=\'surtidores.envase\'>', name_file)
+    write_text(f'<field name=\'name\'>{line[0]}</field>', name_file)
+    write_text(f'<field name=\'tipo_combustible\' ref=\'surtidores.producto{identificador}\'/>', name_file)
+    write_text('</record>', name_file)
+
+
+def write_viajes(line, name_file, identificador):
+    write_text(f'<record id=\'viaje{identificador}\' model=\'surtidores.viaje\'>', name_file)
+    write_text(f'<field name=\'origen\'>{line[0]}</field>', name_file)
+    write_text(f'<field name=\'destino\'>{line[1]}</field>', name_file)
+    write_text(f'<field name=\'camion\' ref=\'surtidores.camion{identificador}\'/>', name_file)
+    write_text(f'<field name=\'cliente\' ref=\'surtidores.cliente{identificador}\'/>', name_file)
+    write_text(f'<field name=\'envases\' ref=\'surtidores.envase{identificador}\'/>', name_file)
+    write_text(f'<field name=\'fecha\'>{line[2].strip()}</field>', name_file)
+    write_text('</record>', name_file)
 
 
 def delete_file(name_file):
@@ -61,63 +62,64 @@ def clientes_generator(name_file):
     delete_file(name_file)
     write_text('<odoo><data>', name_file)
     identificador = 0
-    with open("clientes.csv") as file:
+    with open('clientes.csv') as file:
         for line in file:
-            write_clientes(line.strip(), name_file, identificador)
+            line = line.split(',')
+            write_clientes(line, name_file, identificador)
             identificador += 1
     write_text('</data></odoo>', name_file)
 
 
-# def camiones_generator(name_file):
-#     delete_file(name_file)
-#     write_text('<odoo><data>', name_file)
-#     identificador = 0
-#     with open("camiones.csv") as file:
-#         for line in file:
-#             line = line.split(',')
-#             write_camion(line, name_file, identificador)
-#             identificador += 1
-#     write_text('</data></odoo>', name_file)
-#
-#
-# def productos_generator(name_file):
-#     delete_file(name_file)
-#     write_text('<odoo><data>', name_file)
-#     identificador = 0
-#     with open("productos.csv") as file:
-#         for line in file:
-#             line = line.split(',')
-#             write_productos(line, name_file, identificador)
-#             identificador += 1
-#     write_text('</data></odoo>', name_file)
-#
-#
-# def envases_generator(name_file):
-#     delete_file(name_file)
-#     write_text('<odoo><data>', name_file)
-#     identificador = 0
-#     with open("productos.csv") as file:
-#         for line in file:
-#             line = line.split(',')
-#             write_envases(line, name_file, identificador)
-#             identificador += 1
-#     write_text('</data></odoo>', name_file)
-#
-#
-# def viajes_generator(name_file):
-#     delete_file(name_file)
-#     write_text('<odoo><data>', name_file)
-#     identificador = 0
-#     with open("viajes.csv") as file:
-#         for line in file:
-#             line = line.split(',')
-#             write_viajes(line, name_file, identificador)
-#             identificador += 1
-#     write_text('</data></odoo>', name_file)
+def camiones_generator(name_file):
+    delete_file(name_file)
+    write_text('<odoo><data>', name_file)
+    identificador = 0
+    with open("camiones.csv") as file:
+        for line in file:
+            line = line.split(',')
+            write_camion(line, name_file, identificador)
+            identificador += 1
+    write_text('</data></odoo>', name_file)
+
+
+def productos_generator(name_file):
+    delete_file(name_file)
+    write_text('<odoo><data>', name_file)
+    identificador = 0
+    with open("productos.csv") as file:
+        for line in file:
+            line = line.split(',')
+            write_productos(line, name_file, identificador)
+            identificador += 1
+    write_text('</data></odoo>', name_file)
+
+
+def envases_generator(name_file):
+    delete_file(name_file)
+    write_text('<odoo><data>', name_file)
+    identificador = 0
+    with open("productos.csv") as file:
+        for line in file:
+            line = line.split(',')
+            write_envases(line, name_file, identificador)
+            identificador += 1
+    write_text('</data></odoo>', name_file)
+
+
+def viajes_generator(name_file):
+    delete_file(name_file)
+    write_text('<odoo><data>', name_file)
+    identificador = 0
+    with open("viajes.csv") as file:
+        for line in file:
+            line = line.split(',')
+            write_viajes(line, name_file, identificador)
+            identificador += 1
+    write_text('</data></odoo>', name_file)
 
 
 clientes_generator('demo/clientes.xml')
-# camiones_generator('demo/camiones.xml')
-# productos_generator('demo/productos.xml')
-# envases_generator('demo/envases.xml')
-# viajes_generator('demo/viajes.xml')
+camiones_generator('demo/camiones.xml')
+productos_generator('demo/productos.xml')
+envases_generator('demo/envases.xml')
+viajes_generator('demo/viajes.xml')

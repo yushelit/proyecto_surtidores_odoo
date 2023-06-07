@@ -1,0 +1,44 @@
+<odoo>
+    <data>
+        <record id='producto0' model='surtidores.producto'>
+<!--            <field name='name'>TrinitroTolueno</field>-->
+            <field name='precio'>3.03</field>
+        </record>
+        <record id='producto1' model='surtidores.producto'>
+<!--            <field name='name'>Etanol</field>-->
+            <field name='precio'>3.69</field>
+        </record>
+        <record id='producto2' model='surtidores.producto'>
+<!--            <field name='name'>Metano</field>-->
+            <field name='precio'>1.49</field>
+        </record>
+        <record id='producto3' model='surtidores.producto'>
+<!--            <field name='name'>TrinitroTolueno</field>-->
+            <field name='precio'>3.89</field>
+        </record>
+        <record id='producto4' model='surtidores.producto'>
+<!--            <field name='name'>Pentano</field>-->
+            <field name='precio'>1.4</field>
+        </record>
+        <record id='producto5' model='surtidores.producto'>
+<!--            <field name='name'>Queroseno</field>-->
+            <field name='precio'>2.04</field>
+        </record>
+        <record id='producto6' model='surtidores.producto'>
+<!--            <field name='name'>Queroseno</field>-->
+            <field name='precio'>1.52</field>
+        </record>
+        <record id='producto7' model='surtidores.producto'>
+<!--            <field name='name'>TrinitroTolueno</field>-->
+            <field name='precio'>2.57</field>
+        </record>
+        <record id='producto8' model='surtidores.producto'>
+<!--            <field name='name'>TrinitroTolueno</field>-->
+            <field name='precio'>2.36</field>
+        </record>
+        <record id='producto9' model='surtidores.producto'>
+<!--            <field name='name'>TrinitroTolueno</field>-->
+            <field name='precio'>3.31</field>
+        </record>
+    </data>
+</odoo>

@@ -31,10 +31,10 @@
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
-        # 'demo/clientes.xml'
-        # 'demo/camiones.xml',
-        # 'demo/productos.xml',
-        # 'demo/envases.xml',
-        # 'demo/viajes.xml'
+        'demo/clientes.xml',
+        'demo/camiones.xml',
+        'demo/productos.xml',
+        'demo/envases.xml',
+        'demo/viajes.xml'
     ],
 }
