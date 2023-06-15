@@ -22,7 +22,7 @@ class cliente(models.Model):
     edad = fields.Integer()
     foto = fields.Image(string="Foto", help="Añadir foto")
     direccion = fields.Text(string="Direccion", help="Dirección del Cliente", default='C/ ')
-    fecha_registro = fields.Date(string='Fecha de registro')  # , compute='_compute_fecha_registro', store=True)
+    fecha_registro = fields.Date(string='Fecha de registro', compute='_compute_fecha_registro', store=True)
 
     @api.constrains('dni')
     def _check_dni(self):
@@ -33,12 +33,12 @@ class cliente(models.Model):
             else:
                 raise ValidationError('Formato DNI incorrecto')
 
-    _sql_constraints = [('dni_uniq', 'unique(dni)', 'DNI no se puede repetir')]
+    @api.depends('name')
+    def _compute_fecha_registro(self):
+        for cliente in self:
+            cliente.fecha_registro = fields.Date.today()
 
-    # @api.depends('name')
-    # def _compute_fecha_registro(self):
-    #     for cliente in self:
-    #         cliente.fecha_registro = datetime.now().strftime("%d/%m/%Y")
+    _sql_constraints = [('dni_uniq', 'unique(dni)', 'DNI no se puede repetir')]
 
 
 # Modelo Camion
