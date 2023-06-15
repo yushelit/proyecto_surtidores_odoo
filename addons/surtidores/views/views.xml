@@ -63,6 +63,7 @@
           <field name="cliente"/>
           <field name="origen"/>
           <field name="destino"/>
+          <field name="camion"/>
         </tree>
       </field>
     </record>

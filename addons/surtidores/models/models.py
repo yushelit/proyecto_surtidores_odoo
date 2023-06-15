@@ -22,7 +22,7 @@ class cliente(models.Model):
     edad = fields.Integer()
     foto = fields.Image(string="Foto", help="Añadir foto")
     direccion = fields.Text(string="Direccion", help="Dirección del Cliente", default='C/ ')
-    fecha_registro = fields.Date(string='Fecha de registro', compute='_compute_fecha_registro', store=True)
+    fecha_registro = fields.Date(string='Fecha de registro')  # , compute='_compute_fecha_registro', store=True)
 
     @api.constrains('dni')
     def _check_dni(self):
@@ -33,10 +33,12 @@ class cliente(models.Model):
             else:
                 raise ValidationError('Formato DNI incorrecto')
 
-    @api.depends('name')
-    def _compute_fecha_registro(self):
-        for cliente in self:
-            cliente.fecha_registro = datetime.now().strftime("%Y-%m-%d")
+    _sql_constraints = [('dni_uniq', 'unique(dni)', 'DNI no se puede repetir')]
+
+    # @api.depends('name')
+    # def _compute_fecha_registro(self):
+    #     for cliente in self:
+    #         cliente.fecha_registro = datetime.now().strftime("%d/%m/%Y")
 
 
 # Modelo Camion
@@ -57,6 +59,7 @@ class camion(models.Model):
                 _logger.info('Matricula correta')
             else:
                 raise ValidationError('Formato de Matricula incorrecta')
+        _sql_constraints = [('mat_uniq', 'unique(name)', 'la matrícula no se puede repetir')]
 
 
 # Modelo Productos
@@ -73,8 +76,7 @@ class producto(models.Model):
         ('nt', 'NitroGlicerina'),
         ('etanol', 'Etanol'),
         ('pentano', 'Pentano'),
-        ('butano', 'Butano'), ], string='Tipo de Combustible', required=True,
-        default='gasolina')
+        ('butano', 'Butano'), ], string='Tipo de Combustible', required=True, default='gasolina')
     precio = fields.Float(string="Precio(€) por litro", help="Valor de un litro de combustrible en euros")
 
 
@@ -93,8 +95,7 @@ class envase(models.Model):
         ('45', '45'),
         ('50', '50'),
         ('55', '55'),
-        ('60', '60'), ], string='Capacidad', required=True,
-        default='45')
+        ('60', '60'), ], string='Capacidad', required=True, default='45')
 
 
 # Modelo Viaje
