@@ -1,6 +1,10 @@
 import csv
+import random
 from os import remove
 from os import path
+
+lista_enteros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+lista_combustibles = [0, 1, 2, 3, 4]
 
 
 def write_text(text, name_file):
@@ -36,20 +40,21 @@ def write_productos(line, name_file, identificador):
 
 
 def write_envases(line, name_file, identificador):
-    write_text(f'<record id=\'envase{line[0]}\' model=\'surtidores.envase\'>', name_file)
+    write_text(f'<record id=\'envase{identificador}\' model=\'surtidores.envase\'>', name_file)
     write_text(f'<field name=\'name\'>{line[0]}</field>', name_file)
-    write_text(f'<field name=\'tipo_combustible\' ref=\'surtidores.producto{identificador}\'/>', name_file)
+    write_text(f'<field name=\'capacidad\'>{line[1].strip()}</field>', name_file)
+    write_text(f'<field name=\'tipo_combustible\' ref=\'producto{random.choice(lista_combustibles)}\'/>', name_file)
     write_text('</record>', name_file)
 
 
 def write_viajes(line, name_file, identificador):
     write_text(f'<record id=\'viaje{identificador}\' model=\'surtidores.viaje\'>', name_file)
     write_text(f'<field name=\'origen\'>{line[0]}</field>', name_file)
-    write_text(f'<field name=\'destino\'>{line[1]}</field>', name_file)
-    write_text(f'<field name=\'camion\' ref=\'surtidores.camion{identificador}\'/>', name_file)
-    write_text(f'<field name=\'cliente\' ref=\'surtidores.cliente{identificador}\'/>', name_file)
-    write_text(f'<field name=\'envases\' ref=\'surtidores.envase{identificador}\'/>', name_file)
-    write_text(f'<field name=\'fecha\'>{line[2].strip()}</field>', name_file)
+    write_text(f'<field name=\'destino\'>{line[1].strip()}</field>', name_file)
+    write_text(f'<field name=\'camion\' ref=\'camion{random.choice(lista_enteros)}\'/>', name_file)
+    write_text(f'<field name=\'cliente\' ref=\'cliente{random.choice(lista_enteros)}\'/>', name_file)
+    write_text(f'<field name=\'envases\' eval=\"[(6, 0, [ref(\'envase{random.choice(lista_enteros)}\'), ref(\'envase{random.choice(lista_enteros)}\')])]"/>', name_file)
+    # write_text(f'<field name=\'fecha\'>{line[2].strip()}</field>', name_file)
     write_text('</record>', name_file)
 
 
@@ -98,7 +103,7 @@ def envases_generator(name_file):
     delete_file(name_file)
     write_text('<odoo><data>', name_file)
     identificador = 0
-    with open("productos.csv") as file:
+    with open("envases.csv") as file:
         for line in file:
             line = line.split(',')
             write_envases(line, name_file, identificador)
